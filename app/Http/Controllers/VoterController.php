@@ -85,13 +85,13 @@ class VoterController extends Controller
         $mail->isSMTP();                                            //Send using SMTP
         $mail->Host       = 'mail.learnwithacruz.my.id';                     //Set the SMTP server to send through
         $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-        $mail->Username   = 'domainfajar@learnwithacruz.my.id';                     //SMTP username
-        $mail->Password   = 'Akbar536177';                               //SMTP password
+        $mail->Username   = 'buatassets@learnwithacruz.my.id';                     //SMTP username
+        $mail->Password   = 'Assets20202021';                               //SMTP password
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
         $mail->Port       = 465;  
 
         //Recipients
-        $mail->setFrom('akbar.fajar2311@gmail.com', 'ASSETS UGM');     //Add a recipient
+        $mail->setFrom('buatassets@learnwithacruz.my.id', 'ASSETS UGM');     //Add a recipient
         $mail->addAddress($req);               //Name is optional
         $mail->addReplyTo('info@example.com', 'Information');
         
@@ -114,13 +114,13 @@ class VoterController extends Controller
         $mail->isSMTP();                                            //Send using SMTP
         $mail->Host       = 'mail.learnwithacruz.my.id';                     //Set the SMTP server to send through
         $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-        $mail->Username   = 'domainfajar@learnwithacruz.my.id';                     //SMTP username
-        $mail->Password   = 'Akbar536177';                               //SMTP password
+        $mail->Username   = 'buatassets@learnwithacruz.my.id';                     //SMTP username
+        $mail->Password   = 'Assets20202021';                               //SMTP password
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
         $mail->Port       = 465;  
         //Recipients
         
-        $mail->setFrom('akbar.fajar2311@gmail.com', 'ASSETS UGM');     //Add a recipient
+        $mail->setFrom('buatassets@learnwithacruz.my.id', 'ASSETS UGM');     //Add a recipient
         $mail->addAddress($m->email);               //Name is optional
         
         //Content 
