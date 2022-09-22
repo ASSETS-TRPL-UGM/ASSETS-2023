@@ -111,7 +111,7 @@
                   </script>
 @else
     <center>
-        Tidak ada Pemilihan apapun Ya.
+        Tidak ada Pemilihan apapun.
     </center>
 @endif
 
