@@ -95,8 +95,8 @@
                                             <div class="fw-lighter">Tel: </div>
                                             <div class="fw-bold">310-437-2766</div>
                                         </th>
-        
                                     </tr>
+
                                     <tr>
                                         <td>
                                             <img src="assets/image/email.png" alt="" srcset="" width="25" height="25">
@@ -121,7 +121,6 @@
                                             <div class="fw-lighter">Address: </div>
                                             <div class="fw-bold">Special Region of Yogyakarta</div>
                                         </td>
-        
                                     </tr>
                                 </table>
                             </div>

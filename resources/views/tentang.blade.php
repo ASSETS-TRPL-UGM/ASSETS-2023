@@ -176,8 +176,9 @@
                                 </table>
                             </div>
                         </div>
-                        <div class="col d-flex align-items-start">
-                        </div>
+
+                        <div class="col d-flex align-items-start"></div>
+                        
                         <div class="col d-flex align-items-start">
                             <div class="col d-flex align-items-start">
                                 <div>
