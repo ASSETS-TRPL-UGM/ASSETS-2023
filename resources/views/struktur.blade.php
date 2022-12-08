@@ -8,8 +8,8 @@
     <title>Struktur Organisasi ASSETS</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/style/mystyle.css">
-    <link rel="stylesheet" href="assets/style/nextpage.css">
+    <link rel="stylesheet" href="{{ getAssetDir('assets/style/mystyle.css') }}">
+    <link rel="stylesheet" href="{{ getAssetDir('assets/style/nextpage.css') }}">
 </head>
 
 <body>
@@ -23,7 +23,7 @@
                     Kembali
                 </a>
                 <a class="navbar-brand" href="#">
-                    <img src="assets/image/logo.png" alt="" width="120" height="24"
+                    <img src="{{ getAssetDir('assets/image/logo.png') }}" alt="" width="120" height="24"
                         class="d-inline-block align-text-top">
                 </a>
             </div>
@@ -35,7 +35,7 @@
             <section id="struktur">
                 <div class="row featurette mt-5 mb-5 img-reveal">
                     <div class="col-md-6 mb-5 ">
-                        <img src="./assets/image/Team spirit.png"
+                        <img src="{{ getAssetDir('assets/image/Team spirit.png') }}"
                             class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto gambar"
                             alt="Image of about" width="auto" height="500" loading="lazy">
                     </div>
@@ -58,7 +58,7 @@
 
 
             <div class="d-flex justify-content-center awalan">
-                <img src="assets/image/struktur.png" class="img-fluid awalan img-struktur" alt="Responsive image">
+                <img src="{{ getAssetDir('assets/image/struktur.png') }}" class="img-fluid awalan img-struktur" alt="Responsive image">
                 
             </div>
 
@@ -75,7 +75,7 @@
                         <div class="col d-flex align-items-start">
                             <div>
                                 <a class="navbar-brand" href="#">
-                                    <img src="assets/image/logo.png" alt="" width="120" height="24"
+                                    <img src="{{ getAssetDir('assets/image/logo.png') }}" alt="" width="120" height="24"
                                         class="d-inline-block align-text-top">
                                 </a>
                                 <p class="assets-footer">
@@ -99,7 +99,7 @@
 
                                     <tr>
                                         <td>
-                                            <img src="assets/image/email.png" alt="" srcset="" width="25" height="25">
+                                            <img src="{{ getAssetDir('assets/image/email.png') }}" alt="" srcset="" width="25" height="25">
                                             </svg>
                                         </td>
                                         <td>
@@ -208,6 +208,6 @@
 
     <script src="https://unpkg.com/scrollreveal"></script>
 
-    <script src="assets/js/main.js"></script>
+    <script src="{{ getAssetDir('assets/js/main.js') }}"></script>
 </body>
 </html>

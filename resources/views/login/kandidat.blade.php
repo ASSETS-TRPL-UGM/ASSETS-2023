@@ -31,7 +31,7 @@
         @foreach($kandidat_tabel as $kdt)
         <tr>
             <td>{{ $kdt->no_urut }}</td>
-            <td><img src="{{asset('thumb/'.$kdt->foto) }}" alt="" style="width:75px;height:100px;"></td>
+            <td><img src="{{getAssetDir('thumb/'.$kdt->foto) }}" alt="" style="width:75px;height:100px;"></td>
             <td>{{ $kdt->nama }}</td>
             <td>{{ $kdt->nim }}</td>
             <td>{{ $kdt->angkatan }}</td>

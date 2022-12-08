@@ -8,8 +8,8 @@
     <title>Tentang ASSETS</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/style/nextpage.css">
-    <link rel="stylesheet" href="assets/style/carousel.css">
+    <link rel="stylesheet" href="{{ getAssetDir('assets/style/nextpage.css') }}">
+    <link rel="stylesheet" href="{{ getAssetDir('assets/style/carousel.css') }}">
 </head>
 
 <body>
@@ -23,7 +23,7 @@
                     Kembali
                 </a>
                 <a class="navbar-brand" href="#">
-                    <img src="assets/image/logo.png" alt="" width="120" height="24"
+                    <img src="{{ getAssetDir('assets/image/logo.png') }}" alt="" width="120" height="24"
                         class="d-inline-block align-text-top">
                 </a>
             </div>
@@ -40,13 +40,13 @@
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="assets/image/work5.jpg" alt="" srcset="" class="bd-placeholder-img" width="100%" height="100%">
+                    <img src="{{ getAssetDir('assets/image/work5.jpg') }}" alt="" srcset="" class="bd-placeholder-img" width="100%" height="100%">
                 </div>
                 <div class="carousel-item">
-                    <img src="assets/image/work4.jpg" alt="" srcset="" class="bd-placeholder-img" width="100%" height="100%">
+                    <img src="{{ getAssetDir('assets/image/work4.jpg') }}" alt="" srcset="" class="bd-placeholder-img" width="100%" height="100%">
                 </div>
                 <div class="carousel-item">
-                    <img src="assets/image/work6.jpg" alt="" srcset="" class="bd-placeholder-img" width="100%" height="100%">
+                    <img src="{{ getAssetDir('assets/image/work6.jpg') }}" alt="" srcset="" class="bd-placeholder-img" width="100%" height="100%">
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
@@ -91,7 +91,7 @@
             <section id="struktur">
                 <div class="row featurette">
                     <div class="col-md-5 mb-5 img-reveal">
-                        <img src="./assets/image/Team spirit.png"
+                        <img src="{{ getAssetDir('assets/image/Team spirit.png') }}"
                             class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
                             alt="Image of about" width="auto" height="500" loading="lazy">
                     </div>
@@ -126,7 +126,7 @@
                         <div class="col d-flex align-items-start">
                             <div>
                                 <a class="navbar-brand" href="#">
-                                    <img src="assets/image/logo.png" alt="" width="120" height="24"
+                                    <img src="{{ getAssetDir('assets/image/logo.png') }}" alt="" width="120" height="24"
                                         class="d-inline-block align-text-top">
                                 </a>
                                 <p class="assets-footer">
@@ -150,7 +150,7 @@
                                     </tr>
                                     <tr>
                                         <td>
-                                            <img src="assets/image/email.png" alt="" srcset="" width="25" height="25">
+                                            <img src="{{ getAssetDir('assets/image/email.png') }}" alt="" srcset="" width="25" height="25">
                                             </svg>
                                         </td>
                                         <td>

@@ -44,7 +44,7 @@
                             <!-- foreach start here -->
                             @foreach($kandidat_tabel as $kdt)
                             <div class="col mb-3 judul mx-auto">
-                                <img src="{{asset('thumb/'.$kdt->foto) }}" alt="" srcset=""
+                                <img src="{{getAssetDir('thumb/'.$kdt->foto) }}" alt="" srcset=""
                                     class="bd-placeholder-img card-img-top" width="100%" height="400px">
 
                                 <div class="card-body">    
@@ -82,7 +82,7 @@
                                 <div class="row featurette">
                                     <div class="col-md-4">
                                         <div class="d-flex justify-content-center">
-                                            <img src="{{asset('thumb/'.$kdt->foto) }}" alt="" srcset="" class="foto_kandidat"
+                                            <img src="{{getAssetDir('thumb/'.$kdt->foto) }}" alt="" srcset="" class="foto_kandidat"
                                                 width="80%" height="300px">
                                         </div>
                                         <div class="card-body">

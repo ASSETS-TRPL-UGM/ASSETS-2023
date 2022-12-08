@@ -11,12 +11,12 @@
 @if (Session::has('alert'))
     <script>alert('{{ Session::get('alert') }}');</script>
 @endif
-<body>
+<body style="overflow-x: hidden">
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-white ps-lg-5 fixed-top">
             <div class="container-fluid">
                 <a class="navbar-brand" href="/">
-                    <img src="{{ asset('assets/image/logo.jpg') }}" alt="" width="120" height="24"
+                    <img src="{{ getAssetDir('assets/image/logo.jpg') }}" alt="" width="120" height="24"
                         class="d-inline-block align-text-top">
                 </a>
             </div>
@@ -43,9 +43,6 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#galeri">Galeri</a>
                         </li>
-                        <!-- <li class="nav-item">
-                            <a class="nav-link" data-bs-toggle="modal" data-bs-target="#myModal">Vote</a>
-                        </li> -->
                         <div class="dropdown">
                             <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1"
                                 data-bs-toggle="dropdown" aria-expanded="false">
@@ -130,7 +127,7 @@
                     </div>
 
                     <div class="col-md-5">
-                        <img src="./assets/image/Rectangle 3.png"
+                        <img src="{{ getAssetDir('./assets/image/Rectangle 3.png') }}"
                             class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto img-reveal"
                             alt="Image of about" width="auto" height="500" loading="lazy">
                     </div>
@@ -162,7 +159,7 @@
                         </a>
                     </div>
                     <div class="col-md-6">
-                        <img src="./assets/image/Team spirit.png"
+                        <img src="{{ getAssetDir('./assets/image/Team spirit.png') }}"
                             class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto img-reveal spirit"
                             alt="Image of about" width="auto" height="500" loading="lazy">
                     </div>
@@ -264,18 +261,18 @@
 
                 <hr class="my-5">
 
-                <ul class="rem-masonry judul">
-                    <li><img src="assets/image/bapakmu.jpg" alt="masonry"></li>
-                    <li><img src="assets/image/work6.jpg" alt="masonry"></li>
-                    <li><img src="assets/image/kulbet.jpg" alt="masonry"></li>
-                    <li><img src="assets/image/work5.jpg" alt="masonry"></li>
-                    <li><img src="assets/image/bapakmu.jpg" alt="masonry"></li>
-                    <li><img src="assets/image/work4.jpg" alt="masonry"></li>
-                    <li><img src="assets/image/kulbet.jpg" alt="masonry"></li>
-                    <li><img src="assets/image/work6.jpg" alt="masonry"></li>
-                    <li><img src="assets/image/work5.jpg" alt="masonry"></li>
-                    <li><img src="assets/image/work4.jpg" alt="masonry"></li>
-                    <li><img src="assets/image/work6.jpg" alt="masonry"></li>
+                <ul class="rem-masonry judul" style="max-width: 100%!important;">
+                    <li><img src="{{ getAssetDir('assets/image/bapakmu.jpg') }}" alt="masonry"></li>
+                    <li><img src="{{ getAssetDir('assets/image/work6.jpg') }}" alt="masonry"></li>
+                    <li><img src="{{ getAssetDir('assets/image/kulbet.jpg') }}" alt="masonry"></li>
+                    <li><img src="{{ getAssetDir('assets/image/work5.jpg') }}" alt="masonry"></li>
+                    <li><img src="{{ getAssetDir('assets/image/bapakmu.jpg') }}" alt="masonry"></li>
+                    <li><img src="{{ getAssetDir('assets/image/work4.jpg') }}" alt="masonry"></li>
+                    <li><img src="{{ getAssetDir('assets/image/kulbet.jpg') }}" alt="masonry"></li>
+                    <li><img src="{{ getAssetDir('assets/image/work6.jpg') }}" alt="masonry"></li>
+                    <li><img src="{{ getAssetDir('assets/image/work5.jpg') }}" alt="masonry"></li>
+                    <li><img src="{{ getAssetDir('assets/image/work4.jpg') }}" alt="masonry"></li>
+                    <li><img src="{{ getAssetDir('assets/image/work6.jpg') }}" alt="masonry"></li>
                 </ul>
                 
                 <div class="d-flex justify-content-center">
@@ -301,19 +298,19 @@
                     <div class="row text-center text-lg-start img-reveal">
                         <div class="col-lg-3 col-md-4 col-6 ">
                             <img class="img-fluid "
-                                src="assets/image/work4.jpg" alt="">
+                                src="{{ getAssetDir('assets/image/work4.jpg') }}" alt="">
                         </div>
                         <div class="col-lg-3 col-md-4 col-6">
                             <img class="img-fluid "
-                                src="assets/image/work5.jpg" alt="">
+                                src="{{ getAssetDir('assets/image/work5.jpg') }}" alt="">
                         </div>
                         <div class="col-lg-3 col-md-4 col-6">
                             <img class="img-fluid "
-                                src="assets/image/work6.jpg" alt="">
+                                src="{{ getAssetDir('assets/image/work6.jpg') }}" alt="">
                         </div>
                         <div class="col-lg-3 col-md-4 col-6">
                             <img class="img-fluid "
-                                src="assets/image/work4.jpg" alt="">
+                                src="{{ getAssetDir('assets/image/work4.jpg') }}" alt="">
                         </div>
                     </div>
                 </div>
@@ -325,7 +322,7 @@
                 </div>
 
                 <div class="d-flex justify-content-center">
-                    <a href="#">
+                    <a href="https://drive.google.com/file/d/1c6tk8yi4jbkYqjosCExg662QPzEz-ytK/view?usp=share_link">
                         <button type="submit" class="btn btn-success btn-lg px-4 me-md-2 rounded-pill kotak">Klik disini ya!
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                                 class="bi bi-caret-right-fill" viewBox="0 0 16 16">
@@ -364,7 +361,7 @@
                 <div class="col d-flex align-items-start">
                     <div>
                         <a class="navbar-brand" href="#">
-                            <img src="assets/image/logo.png" alt="" width="120" height="24"
+                            <img src="{{ getAssetDir('assets/image/logo.png') }}" alt="" width="120" height="24"
                                 class="d-inline-block align-text-top">
                         </a>
                         <p class="assets-footer">
@@ -388,7 +385,7 @@
                             </tr>
                             <tr>
                                 <td>
-                                    <img src="assets/image/email.png" alt="" srcset="" width="25" height="25">
+                                    <img src="{{ getAssetDir('assets/image/email.png') }}" alt="" srcset="" width="25" height="25">
                                     </svg>
                                 </td>
                                 <td>
@@ -543,7 +540,7 @@
 </script>
 
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-<script src="assets/js/masonry.js"></script>
+<script src="{{ getAssetDir('assets/js/masonry.js') }}"></script>
 
 <script>
     $( document ).ready(function() {
@@ -558,7 +555,7 @@
 <!--===== SCROLL REVEAL =====-->
 <script src="https://unpkg.com/scrollreveal"></script>
 
-<script src="assets/js/main.js"></script>
+<script src="{{ getAssetDir('assets/js/main.js') }}"></script>
 </body>
 @endsection
 
