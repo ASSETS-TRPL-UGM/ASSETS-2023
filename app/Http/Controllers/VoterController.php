@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Voter;
 use App\Models\Token;
+use Illuminate\Support\Facades\DB;
 
 
 require base_path().'\vendor\phpmailer\phpmailer\src\Exception.php';
@@ -20,7 +21,7 @@ class VoterController extends Controller
 {
     public function index(){        
         $batas = 20;
-        $tabel_voter = \DB::table('voter')->simplePaginate(10);
+        $tabel_voter = DB::table('voter')->simplePaginate(10);
         // dd($tabel_voter);
         $no = 0;
 
@@ -57,8 +58,8 @@ class VoterController extends Controller
     }
 
     public function delete($req){
-        \DB::table('token_tabel')->where('email', '=', $req)->delete();
-        \DB::table('voter')->where('email', '=', $req)->delete();
+        DB::table('token_tabel')->where('email', '=', $req)->delete();
+        DB::table('voter')->where('email', '=', $req)->delete();
 
         return redirect('/home/voter')->with('pesan', 'Voter berhasil dihapus!');
     }
@@ -78,7 +79,7 @@ class VoterController extends Controller
     }
 
     public function sendEmail($req){
-        $token = \DB::table('token_tabel')->where('email', '=', $req)->get();
+        $token = DB::table('token_tabel')->where('email', '=', $req)->get();
         $mail = new PHPMailer(true);
         //Server settings
         $mail->SMTPDebug = SMTP::DEBUG_SERVER;  

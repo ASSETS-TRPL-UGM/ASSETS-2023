@@ -3,7 +3,8 @@
 namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Kandidat;
-use Image;
+use Intervention\Image\Facades\Image;
+use Illuminate\Support\Facades\DB;
 use File;
 
 class KandidatController extends Controller
@@ -47,7 +48,7 @@ class KandidatController extends Controller
     }
 
     public function delete($req){
-        \DB::table('kandidat')->where('no_urut', '=', $req)->delete();
+        DB::table('kandidat')->where('no_urut', '=', $req)->delete();
         
         return redirect('/home/kandidat')->with('pesan', 'Kandidat Berhasil dihapus!');
 

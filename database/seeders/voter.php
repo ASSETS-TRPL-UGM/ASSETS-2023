@@ -1,13 +1,13 @@
 <?php
 namespace Database\Seeders;
-
+use Illuminate\Support\Facades\DB;
 use Illuminate\Database\Seeder;
 
 class voter extends Seeder
 {
     public function run()
     {
-        \DB::unprepared("CREATE TRIGGER update_status after DELETE ON token_tabel\n"
+        DB::unprepared("CREATE TRIGGER update_status after DELETE ON token_tabel\n"
 
         . "       FOR EACH ROW\n"
     
@@ -21,7 +21,7 @@ class voter extends Seeder
     
         . "			WHERE b.email IS NULL;END;");
 
-        \DB::unprepared("CREATE TRIGGER update_status_2 after INSERT ON token_tabel\n"
+        DB::unprepared("CREATE TRIGGER update_status_2 after INSERT ON token_tabel\n"
 
         . "       FOR EACH ROW\n"
     
@@ -33,7 +33,7 @@ class voter extends Seeder
     
         . "			SET status=0;END;");
 
-        \DB::table('voter')->insert([
+        DB::table('voter')->insert([
             'email' => 'akbar.fajar2301@mail.ugm.ac.id',
             'nim'   => '21/479890/SV/19543',
             'angkatan' => '2021',

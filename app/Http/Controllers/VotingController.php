@@ -7,6 +7,8 @@ use App\Models\Kandidat;
 use App\Models\Token;
 use App\Models\Voting;
 use Carbon\Carbon;
+use Illuminate\Support\Facades\DB;
+
 class VotingController extends Controller
 {
     public function index(){
@@ -14,19 +16,19 @@ class VotingController extends Controller
         $k = $kandidat_tabel;
         $c = NULL;
         foreach($k as $k){
-            $c[$k->no_urut] = \DB::table('voting')->where('no_urut', $k->no_urut)->count();
+            $c[$k->no_urut] = DB::table('voting')->where('no_urut', $k->no_urut)->count();
         }
         return view('login/voting', compact('kandidat_tabel', 'c'));
     }
 
     public function livecount(){
-        $p = \DB::table('pengaturan')->latest('created_at')->first();
+        $p = DB::table('pengaturan')->latest('created_at')->first();
         if (Carbon::now()->between(Carbon::parse($p->dt_mulai), Carbon::parse($p->dt_akhir))){
         $kandidat_tabel = Kandidat::all();
         $k = $kandidat_tabel;
         $c = NULL;
         foreach($k as $k){
-            $c[$k->no_urut] = \DB::table('voting')->where('no_urut', $k->no_urut)->count();
+            $c[$k->no_urut] = DB::table('voting')->where('no_urut', $k->no_urut)->count();
         }
         return view('login/livecount', compact('kandidat_tabel', 'c'));
         }
@@ -37,7 +39,7 @@ class VotingController extends Controller
 
     public function sync(Request $req){
         $token = Token::all();
-        $p = \DB::table('pengaturan')->latest('created_at')->first();
+        $p = DB::table('pengaturan')->latest('created_at')->first();
         if ($p != null){
         foreach ($token as $tkn){
             if ($req->token == $tkn->token and Carbon::now()->between(Carbon::parse($p->dt_mulai), Carbon::parse($p->dt_akhir))){
@@ -50,9 +52,9 @@ class VotingController extends Controller
 
     public function submit(Request $req, $tkn){
         $vote = new Voting;
-        $data = \DB::table('token_tabel')->where('token','=',$tkn)->get();
+        $data = DB::table('token_tabel')->where('token','=',$tkn)->get();
         $data_token = $data[0]->email;
-        $data_voter = \DB::table('voter')->where('email','=',$data_token)->get();
+        $data_voter = DB::table('voter')->where('email','=',$data_token)->get();
         $akt_voter = $data_voter[0]->angkatan;
 
         $vote->no_urut = $req->no;
@@ -61,7 +63,7 @@ class VotingController extends Controller
         $vote->updated_at = NULL;
         $vote->save();
 
-        \DB::table('token_tabel')->where('token', '=', $tkn)->delete();
+        DB::table('token_tabel')->where('token', '=', $tkn)->delete();
         return redirect('/')->with('alert', 'Berhasil Memilih!');
     }
 

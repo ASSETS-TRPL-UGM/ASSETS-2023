@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Pengaturan;
 use Carbon\Carbon;
+use Illuminate\Support\Facades\DB;
+
 class PengaturanController extends Controller
 {
     public function index(){
@@ -27,7 +29,7 @@ class PengaturanController extends Controller
     }
 
     public function delete($req){
-        \DB::table('pengaturan')->where('no_sesi', '=', $req)->delete();
+        DB::table('pengaturan')->where('no_sesi', '=', $req)->delete();
         return redirect('/home/pengaturan')->with('pesan', 'pengaturan berhasil dihapus');
     }
 

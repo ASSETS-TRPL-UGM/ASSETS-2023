@@ -127,7 +127,7 @@
                     </div>
 
                     <div class="col-md-5">
-                        <img src="{{ getAssetDir('./assets/image/Rectangle 3.png') }}"
+                        <img src="{{ getAssetDir('./assets/image/heroimg.png') }}"
                             class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto img-reveal"
                             alt="Image of about" width="auto" height="500" loading="lazy">
                     </div>
