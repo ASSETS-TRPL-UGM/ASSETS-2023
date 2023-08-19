@@ -44,7 +44,7 @@
                         <div class="struktur">
                             <h6 class="fw-bold text-success struktur judul">
                                 &mdash;&mdash; 
-                                STRUKTUR ORGANISASI oooasdasdasdasdsada
+                                STRUKTUR ORGANISASI
                             </h6>
                             <h1 class="display-5 fw-bold lh-1 mb-3 subjudul">
                                 Yuk kenali struktur organisasi di ASSETS
