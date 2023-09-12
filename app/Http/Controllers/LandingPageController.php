@@ -13,4 +13,7 @@ class LandingPageController extends Controller
     public function struktur(){
         return view('/struktur');
     }
+    public function news(){
+        return view('/news');
+    }
 }

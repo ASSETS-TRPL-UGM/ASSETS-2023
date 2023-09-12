@@ -1,7 +1,13 @@
 <?php
 
-use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\HomeController;
+use App\Http\Controllers\VoterController;
+use App\Http\Controllers\VotingController;
+use App\Http\Controllers\KandidatController;
+use App\Http\Controllers\PengaturanController;
+use App\Http\Controllers\LandingPageController;
 
 /*
 |--------------------------------------------------------------------------
@@ -63,6 +69,8 @@ Route::post('/home/pengaturan/update/{no}', [App\Http\Controllers\PengaturanCont
 Route::get('/tentang', [App\Http\Controllers\LandingPageController::class, 'tentang'])->name('tentang');
 
 Route::get('/struktur', [App\Http\Controllers\LandingPageController::class, 'struktur'])->name('struktur');
+
+Route::get('/news', [App\Http\Controllers\LandingPageController::class, 'news'])->name('news');
 
 Route::post('/home/voter/send/{email}', [App\Http\Controllers\VoterController::class, 'sendEmail'])->name('email.send');
 
