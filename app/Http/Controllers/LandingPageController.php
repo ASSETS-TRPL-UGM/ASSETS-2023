@@ -16,4 +16,7 @@ class LandingPageController extends Controller
     public function news(){
         return view('/news');
     }
+    public function testimoni(){
+        return view('/testimoni');
+    }
 }

@@ -72,6 +72,8 @@ Route::get('/struktur', [App\Http\Controllers\LandingPageController::class, 'str
 
 Route::get('/news', [App\Http\Controllers\LandingPageController::class, 'news'])->name('news');
 
+Route::get('/testimoni', [App\Http\Controllers\LandingPageController::class, 'testimoni'])->name('testimoni');
+
 Route::post('/home/voter/send/{email}', [App\Http\Controllers\VoterController::class, 'sendEmail'])->name('email.send');
 
 Route::post('/home/voter/send/sendAll/All', [App\Http\Controllers\VoterController::class, 'sendEmailAll'])->name('email.all');
