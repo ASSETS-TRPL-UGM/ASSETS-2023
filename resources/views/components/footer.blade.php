@@ -1,5 +1,4 @@
-<section id="footer">
-    <div class="container footer">
+    <div class="container-fluid footer bg-white ">
         <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
             <div class="col d-flex align-items-start">
                 <div>
@@ -29,7 +28,7 @@
                         <tr>
                             <td>
                                 <img src="{{ getAssetDir('assets/image/email.png') }}" alt="" srcset="" width="25" height="25">
-                                </svg>
+
                             </td>
                             <td>
                                 <div class="fw-lighter">Mail: </div>
@@ -127,8 +126,8 @@
             </div>
         </div>
     </div>
-    <div class="container">
-        <footer class="py-3 my-4 footer">
+    <div class="container-fluid bg-white">
+        <footer class="py-3 footer">
             <ul class="nav justify-content-center border-bottom pb-3 mb-3">
                 <li class="nav-item"><a href="#tentang" class="nav-link px-2 text-muted">Tentang Kami</a></li>
                 <li class="nav-item"><a href="#struktur" class="nav-link px-2 text-muted">Struktur Organisasi</a></li>
@@ -142,4 +141,3 @@
             <p class="text-center text-muted">&copy; 2022 Company, Inc</p>
         </footer>
     </div>
-</section>

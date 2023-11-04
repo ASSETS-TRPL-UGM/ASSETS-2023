@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\DetailDivisiController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
@@ -73,6 +74,8 @@ Route::get('/struktur', [App\Http\Controllers\LandingPageController::class, 'str
 Route::get('/news', [App\Http\Controllers\LandingPageController::class, 'news'])->name('news');
 
 Route::get('/testimoni', [App\Http\Controllers\LandingPageController::class, 'testimoni'])->name('testimoni');
+
+Route::get('/struktur/kastrad',[DetailDivisiController::class,'kastrad']);
 
 Route::post('/home/voter/send/{email}', [App\Http\Controllers\VoterController::class, 'sendEmail'])->name('email.send');
 

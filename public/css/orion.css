@@ -1,0 +1,39 @@
+body{
+    background-color: #0D0C33 !important;
+}
+.gradient-cream{
+    background-image: linear-gradient(#FFEACA,white);
+}
+.text-cream{
+    color: #FFEACA;
+}
+.bg-cream{
+    background-color: #FFEACA !important;
+}
+.prokerCard{
+    background-image: linear-gradient(#FFEACA 30%,white) !important;
+    background-position: 0 20%;
+}
+.card:hover .sun path{
+    fill:white;
+}
+.prokerCard:hover .card-body{
+    background-color: #6D8CF8;
+    color: white;
+}
+.bg-lavender{
+    background-color: #6D8CF8 !important;
+}
+.teamCard:hover .card-body{
+    background-color: #FFEACA;
+    opacity: 80%;
+}
+.z-n1{
+    z-index: -1 !important;
+}
+.orange{
+    border-radius: 360px;
+border: 1px solid #FFF;
+background: var(--Orange, #F59809);
+filter: blur(250px);
+}
