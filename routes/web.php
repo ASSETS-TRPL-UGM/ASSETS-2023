@@ -68,5 +68,7 @@ Route::post('/home/voter/send/{email}', [App\Http\Controllers\VoterController::c
 
 Route::post('/home/voter/send/sendAll/All', [App\Http\Controllers\VoterController::class, 'sendEmailAll'])->name('email.all');
 
+Route::get('/notfound', [App\Http\Controllers\LandingPageController::class, 'notfound'])->name('notfound');
+
 
 
