@@ -20,7 +20,7 @@
                 </div>
             </div>
         </div>
-        <img src="{{asset('images/Orange.svg')}}" class=" position-absolute z-0">
+        <img src="{{ asset('images/Orange.svg') }}" class=" position-absolute z-0">
     </div>
     {{-- Orion --}}
     <div class="container d-flex justify-content-center p-3">
@@ -28,10 +28,10 @@
     </div>
     {{-- Proker --}}
     <p class="mt-5 fs-1 text-center text-white ">--<span class="text-cream">Proker</span>--</p>
-    <div class="container p-3">
+    <div class="container p-5">
         <div class="row row-cols-2 row-cols-md-4 g-3">
             <div class="col">
-                <div class="card prokerCard p-0 m-0">
+                <div class="card prokerCard pt-2 px-0 m-0" >
                     <div class=" container d-flex flex-column align-items-center justify-content-center card-img-top ">
                         <img src="{{ asset('images/Sun.svg') }}" class="z-0 position-relative sun " alt="...">
                         <img src="{{ asset('images/Ellipse 1.svg') }}" class=" z-1 position-absolute mb-5"
@@ -39,8 +39,7 @@
                         <img src="{{ asset('images/prokerKastrad1.svg') }}" class=" z-2 position-absolute mb-5"
                             style="width:50px; height:50px" alt="">
                     </div>
-
-                    <div class=" card-body text-center p-0 m-0">
+                    <div class=" card-body text-center py-2  px-0 m-0">
                         <h5 class="card-title">Hearing Prodi</h5>
                         <p class="card-text">Divisi KASTRAD merupakan kepanjangan
                             dari Divisi Kajian Strategis dan Advokasi.
@@ -49,7 +48,7 @@
                 </div>
             </div>
             <div class="col">
-                <div class="card prokerCard p-0 m-0">
+                <div class="card prokerCard pt-2 px-0 m-0">
                     <div class=" container d-flex flex-column align-items-center justify-content-center card-img-top ">
                         <img src="{{ asset('images/Sun.svg') }}" class="z-0 position-relative sun " alt="...">
                         <img src="{{ asset('images/Ellipse 1.svg') }}" class=" z-1 position-absolute mb-5"
@@ -58,7 +57,7 @@
                             style="width:50px; height:50px" alt="">
                     </div>
 
-                    <div class=" card-body text-center p-0 m-0">
+                    <div class=" card-body text-center py-2 px-0 m-0">
                         <h5 class="card-title">Hearing Prodi</h5>
                         <p class="card-text">Divisi KASTRAD merupakan kepanjangan
                             dari Divisi Kajian Strategis dan Advokasi.
@@ -67,7 +66,7 @@
                 </div>
             </div>
             <div class="col">
-                <div class="card prokerCard p-0 m-0">
+                <div class="card prokerCard pt-2 px-0 m-0">
                     <div class=" container d-flex flex-column align-items-center justify-content-center card-img-top ">
                         <img src="{{ asset('images/Sun.svg') }}" class="z-0 position-relative sun " alt="...">
                         <img src="{{ asset('images/Ellipse 1.svg') }}" class=" z-1 position-absolute mb-5"
@@ -76,7 +75,7 @@
                             style="width:50px; height:50px" alt="">
                     </div>
 
-                    <div class=" card-body text-center p-0 m-0">
+                    <div class=" card-body text-center py-2 px-0 m-0">
                         <h5 class="card-title">Hearing Prodi</h5>
                         <p class="card-text">Divisi KASTRAD merupakan kepanjangan
                             dari Divisi Kajian Strategis dan Advokasi.
@@ -85,7 +84,7 @@
                 </div>
             </div>
             <div class="col">
-                <div class="card prokerCard p-0 m-0">
+                <div class="card prokerCard pt-2 px-0 m-0">
                     <div class=" container d-flex flex-column align-items-center justify-content-center card-img-top ">
                         <img src="{{ asset('images/Sun.svg') }}" class="z-0 position-relative sun " alt="...">
                         <img src="{{ asset('images/Ellipse 1.svg') }}" class=" z-1 position-absolute mb-5"
@@ -94,7 +93,7 @@
                             style="width:50px; height:50px" alt="">
                     </div>
 
-                    <div class=" card-body text-center p-0 m-0">
+                    <div class=" card-body text-center py-2 px-0 m-0">
                         <h5 class="card-title">Hearing Prodi</h5>
                         <p class="card-text">Divisi KASTRAD merupakan kepanjangan
                             dari Divisi Kajian Strategis dan Advokasi.
@@ -103,7 +102,7 @@
                 </div>
             </div>
             <div class="col">
-                <div class="card prokerCard p-0 m-0">
+                <div class="card prokerCard pt-2 px-0 m-0">
                     <div class=" container d-flex flex-column align-items-center justify-content-center card-img-top ">
                         <img src="{{ asset('images/Sun.svg') }}" class="z-0 position-relative sun " alt="...">
                         <img src="{{ asset('images/Ellipse 1.svg') }}" class=" z-1 position-absolute mb-5"
@@ -112,7 +111,7 @@
                             style="width:50px; height:50px" alt="">
                     </div>
 
-                    <div class=" card-body text-center p-0 m-0">
+                    <div class=" card-body text-center py-2 px-0 m-0">
                         <h5 class="card-title">Hearing Prodi</h5>
                         <p class="card-text">Divisi KASTRAD merupakan kepanjangan
                             dari Divisi Kajian Strategis dan Advokasi.
@@ -121,7 +120,7 @@
                 </div>
             </div>
             <div class="col">
-                <div class="card prokerCard p-0 m-0">
+                <div class="card prokerCard pt-2 px-0 m-0">
                     <div class=" container d-flex flex-column align-items-center justify-content-center card-img-top ">
                         <img src="{{ asset('images/Sun.svg') }}" class="z-0 position-relative sun " alt="...">
                         <img src="{{ asset('images/Ellipse 1.svg') }}" class=" z-1 position-absolute mb-5"
@@ -130,7 +129,7 @@
                             style="width:50px; height:50px" alt="">
                     </div>
 
-                    <div class=" card-body text-center p-0 m-0">
+                    <div class=" card-body text-center py-2 px-0 m-0">
                         <h5 class="card-title">Hearing Prodi</h5>
                         <p class="card-text">Divisi KASTRAD merupakan kepanjangan
                             dari Divisi Kajian Strategis dan Advokasi.
@@ -139,7 +138,7 @@
                 </div>
             </div>
             <div class="col">
-                <div class="card prokerCard p-0 m-0">
+                <div class="card prokerCard pt-2 px-0 m-0">
                     <div class=" container d-flex flex-column align-items-center justify-content-center card-img-top ">
                         <img src="{{ asset('images/Sun.svg') }}" class="z-0 position-relative sun " alt="...">
                         <img src="{{ asset('images/Ellipse 1.svg') }}" class=" z-1 position-absolute mb-5"
@@ -148,7 +147,7 @@
                             style="width:50px; height:50px" alt="">
                     </div>
 
-                    <div class=" card-body text-center p-0 m-0">
+                    <div class=" card-body text-center py-2 px-0 m-0">
                         <h5 class="card-title">Hearing Prodi</h5>
                         <p class="card-text">Divisi KASTRAD merupakan kepanjangan
                             dari Divisi Kajian Strategis dan Advokasi.
@@ -157,7 +156,7 @@
                 </div>
             </div>
             <div class="col">
-                <div class="card prokerCard p-0 m-0">
+                <div class="card prokerCard pt-2 px-0 m-0">
                     <div class=" container d-flex flex-column align-items-center justify-content-center card-img-top ">
                         <img src="{{ asset('images/Sun.svg') }}" class="z-0 position-relative sun " alt="...">
                         <img src="{{ asset('images/Ellipse 1.svg') }}" class=" z-1 position-absolute mb-5"
@@ -166,7 +165,7 @@
                             style="width:50px; height:50px" alt="">
                     </div>
 
-                    <div class=" card-body text-center p-0 m-0">
+                    <div class=" card-body text-center py-2 px-0 m-0">
                         <h5 class="card-title">Hearing Prodi</h5>
                         <p class="card-text">Divisi KASTRAD merupakan kepanjangan
                             dari Divisi Kajian Strategis dan Advokasi.
@@ -177,19 +176,64 @@
         </div>
     </div>
     <div class="container-fluid d-flex justify-content-end translate-middle-y  p-0 m-0" style="z-index:-3 !important;">
-        <img src="{{asset('images/Stars2.svg')}}" alt="">
+        <img src="{{ asset('images/Stars2.svg') }}" alt="">
     </div>
     {{-- Anggota --}}
-    <div class="container-fluid d-flex justify-content-center ">
-        <div class="card bg-lavender teamCard" style="width:18rem;">
-          <img src="{{asset('images/mas_taza.png')}}" class="card-img-top mt-5 position-relative z-0" alt="...">
-          <div class="card-body position-absolute z-1 bottom-0 start-50 translate-middle-x container-fluid">
-              <div class="text-center">
-                  <h5 class="card-title text-center ">Ahmad Fatha Mumtaza</h5>
-                  <h6 class="card-subtitle mb-2 text-muted text-center ">Kepala Divis</h6>
-              </div>
-          </div>
+
+    <div class="container-fluid align-items-center d-flex justify-content-center ">
+        <div class="slider">
+            <div class="item">
+                <div class="card rounded-2 mb-2 bg-lavender teamCard" style="width:18rem;" id="card1">
+                    <img src="{{ asset('images/mas_taza.png') }}" class="card-img-top mt-5 position-relative z-0"
+                        alt="...">
+                    <div class="card-body position-absolute z-1 bottom-0  my-2 container-fluid rounded-bottom-2 ">
+                        <div class="text-center">
+                            <h5 class="card-title text-center ">Ahmad Fatha Mumtaza1s</h5>
+                            <h6 class="card-subtitle mb-2 text-muted text-center ">Kepala Divis</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="card rounded-2 mb-2 bg-lavender teamCard" style="width:18rem;" id="card1">
+                    <img src="{{ asset('images/mas_taza.png') }}" class="card-img-top mt-5 position-relative z-0"
+                        alt="...">
+                    <div class="card-body position-absolute z-1 my-2 container-fluid bottom-0 rounded-bottom-2 ">
+                        <div class="text-center">
+                            <h5 class="card-title text-center ">Ahmad Fatha Mumtaza1s</h5>
+                            <h6 class="card-subtitle mb-2 text-muted text-center ">Kepala Divis</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="card rounded-2 mb-2 bg-lavender teamCard" style="width:18rem;" id="card1">
+                    <img src="{{ asset('images/mas_taza.png') }}" class="card-img-top mt-5 position-relative z-0"
+                        alt="...">
+                    <div class="card-body position-absolute z-1 my-2 container-fluid bottom-0 rounded-bottom-2 ">
+                        <div class="text-center">
+                            <h5 class="card-title text-center ">Ahmad Fatha Mumtaza1s</h5>
+                            <h6 class="card-subtitle mb-2 text-muted text-center ">Kepala Divis</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="card rounded-2 mb-2 bg-lavender teamCard" style="width:18rem;" id="card1">
+                    <img src="{{ asset('images/mas_taza.png') }}" class="card-img-top mt-5 position-relative z-0"
+                        alt="...">
+                    <div class="card-body position-absolute z-1 my-2 container-fluid bottom-0 rounded-bottom-2 ">
+                        <div class="text-center">
+                            <h5 class="card-title text-center ">Ahmad Fatha Mumtaza1s</h5>
+                            <h6 class="card-subtitle mb-2 text-muted text-center ">Kepala Divis</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button id="next">></button>
+            <button id="prev"><</button>
         </div>
     </div>
     @include('components.footer')
-    @endsection
+    <script src="{{asset('assets/js/carousel.js')}}"></script>
+@endsection
