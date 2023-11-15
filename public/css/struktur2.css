@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;  
+    background: #0D0C33 !important;
+}
+
+.struktur-title {
+    border-radius: 15px;
+    border: none;
+    background: #FFEACA;
+    width: 100%;
+    padding: 10px 20px; 
+    color: #2f343a;
+    font-size: 24px;
+}
+
+.judul {
+    font-size: 36px;
+    color: #0D0C33;
+    text-shadow: 2px 2px 3px rgba(77, 76, 76, 0.9);
+}
+
+.tentang {
+    font-size: 30px;
+    color: #FFEACA;
+    text-shadow: oklch(lightness chroma hue);
+}
+
+#visi {
+    background: #FFEACA;
+    padding-top: 20px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.visi {
+    background: #0D0C33 !important;
+    margin: 10px;
+}
+
+.btn-visi {
+    background-color: #FFEACA;
+    border-radius: 5px;
+    color: #0D0C33;
+    border: none;
+    padding: 8px 5px;
+}

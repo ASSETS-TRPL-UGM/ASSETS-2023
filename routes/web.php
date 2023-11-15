@@ -70,5 +70,7 @@ Route::post('/home/voter/send/sendAll/All', [App\Http\Controllers\VoterControlle
 
 Route::get('/notfound', [App\Http\Controllers\LandingPageController::class, 'notfound'])->name('notfound');
 
+Route::get('/newstruktur', [App\Http\Controllers\LandingPageController::class, 'newstruktur'])->name('newstruktur');
+
 
 

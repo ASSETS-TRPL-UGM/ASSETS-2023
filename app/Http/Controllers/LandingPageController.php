@@ -17,4 +17,8 @@ class LandingPageController extends Controller
     public function notfound(){
         return view('/notfound');
     }
+
+    public function newstruktur(){
+        return view('/struktur2');
+    }
 }
