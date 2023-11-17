@@ -17,16 +17,27 @@ body{
 .prokerCard{
     background-image: linear-gradient(#FFEACA 30%,white) !important;
     background-position: 0 20%;
+    border: none !important;
 }
-.card:hover .sun path{
-    fill:white;
+.card{
+    border-radius: 20px !important;
+}
+.card:hover .sun{
+    filter:  brightness(0) invert(1);
 }
 .prokerCard:hover .card-body{
     background-color: #6D8CF8;
     color: white;
+    border: #6D8CF8;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 .bg-lavender{
     background-color: #6D8CF8 !important;
+}
+.teamCard{
+    border:solid 5px white !important;
+
 }
 .teamCard:hover .card-body{
     background-color: #FFEACA;
@@ -34,12 +45,6 @@ body{
 }
 .z-n1{
     z-index: -1 !important;
-}
-.orange{
-    border-radius: 360px;
-border: 1px solid #FFF;
-background: var(--Orange, #F59809);
-filter: blur(250px);
 }
 
 .image-bg{
@@ -53,6 +58,10 @@ filter: blur(250px);
     width: 100%;
     height: 370px;
     overflow: hidden !important;
+}
+.fs-7{
+    font-size: smaller;
+    font-weight: 600;
 }
 .item{
     position: absolute !important;
@@ -80,6 +89,39 @@ filter: blur(250px);
     left: unset;
     right: 400px;
 }
+.orange{
+    height: 360px;
+  width: 360px;
+  background-color: #F59809;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  left: -200px;
+  filter: blur(180px);
+}
+.purple{
+    height: 420px;
+  width: 420px;
+  background-color: #A451A6;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  left: -180px;
+  top: 1400px;
+  filter: blur(180px);
+}
+
+.blue{
+height: 420px;
+  width: 420px;
+  background-color: #04B0A6;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  right: -200px;
+  top: 500px;
+  filter: blur(180px);
+}
 @media (max-width: 768px) {
     #prev, #next {
         font-size:xx-large;
@@ -96,9 +138,3 @@ filter: blur(250px);
         z-index: 2;
     }
 }
-
-
-
-
-
-
