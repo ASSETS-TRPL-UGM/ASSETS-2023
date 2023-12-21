@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="{{ asset('css/notfound.css') }}">
 @endsection
 
-<body style="overflow-x: hidden">
+<body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-white ps-lg-5 fixed-top">
             <div class="container-fluid">
@@ -55,9 +55,11 @@
 
 
     <div class="notfound justify-content-center">
-        <p class="type-1">404</p>
-        <p class="type-2">Page Not Found</p>
-        <p class="type-3">The page you're looking temporary unavailable</p>
+        <img src="../assets/image/404.png" alt="" width="400" height="auto"class="d-inline-block">
+        <p class="type-1">Page Not Found</p>
+        <p class="type-2">The page you're looking temporary unavailable</p>
+        <img class="corner-top" src="../assets/image/top.png" alt="" width="200" height="auto">
+        <img class="corner-bottom" src="../assets/image/bottom.png" alt="" width="200" height="auto">
         <div class="button-container">
             <button class="button" onclick="window.location.href='/'">Go to Home</button>
         </div>

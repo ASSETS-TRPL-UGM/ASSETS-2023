@@ -58,13 +58,45 @@
         <div class="container">
             <div class="struktur-title judul  border-top-0 mt-5">
                 <p class="text-center fw-bold">Struktur Organisasi ASSETS</p>
-                <div class="justify-content-center">
+                <div class="justify-content-center d-flex align-items-center">
                     <p class="text-center fw-bold judul">
                         Kabinet
                     </p>
-                    <div class="col-lg-3 col-md-4 col-6">
-                        <img class=""
-                            src="{{ getAssetDir('./assets/image/orion.png') }}" alt="">
+                    <img class="orion" src="./assets/image/orion.png" alt="">
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col">
+                    <div class="card" style="width: 16rem;">
+                        <h4 class="text-center fw-bold mt-3">Ketua ASSETS</h4>
+                        <img src="./assets/image/cedric.png" class="card-img-top mx-auto" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text text-center">Gisfa Putra Ryangga</p>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card" style="width: 16rem;">
+                        <h4 class="text-center fw-bold mt-3">Ketua ASSETS</h4>
+                        <img src="./assets/image/cedric.png" class="card-img-top mx-auto" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text text-center">Gisfa Putra Ryangga</p>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card" style="width: 16rem;">
+                        <h4 class="text-center fw-bold mt-3">Ketua ASSETS</h4>
+                        <img src="./assets/image/cedric.png" class="card-img-top mx-auto" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text text-center">Gisfa Putra Ryangga</p>
                     </div>
                 </div>
             </div>
@@ -117,5 +149,7 @@
             </div>
         </div>
     </section>
+
+    
 
 </div>

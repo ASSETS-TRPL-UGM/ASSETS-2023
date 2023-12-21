@@ -18,7 +18,7 @@ body{
 .judul {
     font-size: 36px;
     color: #0D0C33;
-    text-shadow: 2px 2px 3px rgba(77, 76, 76, 0.9);
+    text-shadow: 2px 2px 3px rgba(132, 131, 131, 0.9);
 }
 
 .tentang {
@@ -32,6 +32,8 @@ body{
     padding-top: 20px;
     margin-top: 20px;
     width: 100%;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .visi {
@@ -45,4 +47,44 @@ body{
     color: #0D0C33;
     border: none;
     padding: 8px 5px;
+}
+
+.orion {
+    height: auto;
+    width: 150px;
+}
+
+.blue-bottom-text {
+    background-color: #007bff; /* Blue background color */
+    padding: 10px; /* Adjust padding as needed */
+    text-align: center; /* Center the text */
+}
+
+.card {
+    background-color: #FFEACA !important;
+    border-radius: 10px 10px 0px 0px  !important;
+    border: none !important;
+    z-index: -1 !important;
+}
+
+.card-body {
+    background-color: #0D0C33;
+    color: #FFEACA  ;
+    border-radius: 10px;
+    border: none;
+    margin-top: -10px;
+    z-index: 1 !important;
+    width: 16rem;
+}
+
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900 !important;
+    align-items: center;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900 !important;
+    align-items: center;
 }
