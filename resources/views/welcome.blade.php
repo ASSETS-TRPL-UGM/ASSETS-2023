@@ -28,19 +28,19 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav">
-                        <li class="nav-item">
+                        <li class="nav-item mx-1">
                             <a class="nav-link" aria-current="page" href="#tentang">Tentang Kami</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item mx-1">
                             <a class="nav-link" href="#struktur">Struktur Organisasi</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item mx-1">
                             <a class="nav-link" href="#visi">Visi Misi</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item mx-1">
                             <a class="nav-link" href="#lokasi">Lokasi</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item mx-1">
                             <a class="nav-link" href="#galeri">Galeri</a>
                         </li>
                         <div class="dropdown">
@@ -165,52 +165,55 @@
                     </div>
                 </div>
             </section>
+        </div>
 
             <section id="visi">
-                <div class="p-4 p-md-5 mb-4 text-white rounded bg-success">
-                    <div class="text-center judul">
-                        <h6 class="fw-bold text-warning">
-                            &mdash;&mdash;
-                            VISI & MISI
-                            &mdash;&mdash;
-                        </h6>
-                        <h1 class="display-5 fw-bold lh-1 mb-3">
-                            Apa itu visi & misi ASSET?
+                <div class="rounded tentang">
+                    <div class="text-center">
+                        <h1 class="display-5 fw-bold lh-1 mb-3 visi">
+                            Tentang
                         </h1>
                     </div>
-
                     <div>
                         <div class="container-fluid py-5 visi">
-                            <div class="text-center">
-                                <button type="button" class="btn btn-visi mb-3 text-white">VISI</button>
+                            <div class="row">
+                                <div class="col-md-6 text-center">
+                                    <button type="button" class="btn btn-visi mb-3">Visi</button>
+                                    <p>Mewujudkan ASSETS sebagai himpunan yang unggul, aktif, 
+                                        profesional, dan solid bersama dalam membangun kemajuan TRPL.</p>
+                                </div>
+                                <div class="col-md-6">
+                                    <img src="../assets/image/Picture1.png"
+                                        class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-reveal"
+                                        alt="Image of about" width="400" height="auto" loading="lazy">
+                                </div>
                             </div>
-                            <p>Menjadikan assets sebagai wadah atau jembatan bagi para mahasiswa TRPL untuk
-                                memberikan aspirasinya dengan mengedepankan elemen kekeluargaan, keilmuan, kreatif,
-                                kolaboratif, dan inovatif untuk menciptakan assets yang bergelora.</p>
                         </div>
                     </div>
 
                     <div class="container-fluid misi">
                         <div class="text-center">
-                            <button type="button" class="btn btn-visi mb-3 text-white">MISI</button>
+                            <button type="button" class="btn btn-visi mb-3">Misi</button>
                         </div>
                         <ol>
-                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
-                                minima
-                                natus aspernatur maiores ipsam numquam quasi? Officia eveniet enim
-                                magni!
+                            <li>
+                                Menjadi wadah dan memfasilitasi bakat serta minat mahasiswa TRPL
                             </li>
-                            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis
-                                sequi,
-                                nostrum cum eos saepe voluptatem.</li>
-                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, in.
+                            <li>
+                                Meningkatkan solidaritas dan kebersamaan antar mahasiswa TRPL
+                            </li>
+                            <li>
+                                Mengoptimalkan ASSETS sebagai wadah dalam mengaspirasikan mahasiswa TRPL
+                            </li>
+                            <li>
+                                Membangun relasi, pengembangan bakat akademik dan non akademik mahasiswa TRPL
                             </li>
                         </ol>
                     </div>
                 </div>
-
             </section>
 
+            <div class="container">
             <section id="lokasi">
                 <div class="row featurette mt-5 mb-5">
                     <div class="col-md-5 awalan">
@@ -247,19 +250,20 @@
                     </div>
                 </div>
             </section>
+            </div>
 
             <section id="galeri">
                 <div class="row featurette mb-3 judul">
-                    <h6 class="fw-bold text-success text-center">
-                        &mdash;&mdash;
-                        GALERI ASSETS
-                        &mdash;&mdash;
-                    </h6>
-                    <h1 class="display-5 fw-bold lh-1 text-center">Foto tentang ASSET</h1>
-                    <p class="lead fst-italic text-center mb-3">Foto-foto yang berhubungan dengan kegiatan ASSET</p>
+                    <h1 class="display-5 fw-bold lh-1 text-center">Galeri</h1>
                 </div>
-
-                <hr class="my-5">
+                
+                <div class="container mt-5 mb-5 d-flex justify-content-center align-items-center">
+                        <button class="btn mx-2 btn-galeri kotak">2019</button>
+                        <button class="btn mx-2 btn-galeri kotak">2020</button>
+                        <button class="btn mx-2 btn-galeri kotak">2021</button>
+                        <button class="btn mx-2 btn-galeri kotak">2022</button>
+                        <button class="btn mx-2 btn-galeri kotak">2023</button>
+                </div>
 
                 <ul class="rem-masonry judul" style="max-width: 100%!important;">
                     <li><img src="{{ getAssetDir('assets/image/bapakmu.jpg') }}" alt="masonry"></li>
@@ -277,12 +281,8 @@
                 
                 <div class="d-flex justify-content-center">
                     <a href="galeri.html">
-                        <button type="button" class="btn btn-success btn-lg px-4 me-md-2 rounded-pill kotak">Lihat Semua
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                class="bi bi-caret-right-fill" viewBox="0 0 16 16">
-                                <path
-                                    d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
-                            </svg>
+                        <button type="button" class="btn btn-galeri kotak btn-lg px-4 me-md-2 rounded-pill kotak">Load more
+                            <img src="../assets/image/next.png" width="24">
                         </button>
                     </a>
                 </div>
@@ -333,7 +333,6 @@
                     </a>
                 </div>
             </section>
-        </div>
 
         <div class="modal-footer flex-column border-top-0 mt-5">
             <div class="saran judul">
