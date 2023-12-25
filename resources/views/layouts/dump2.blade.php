@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="{{ getAssetDir('assets/style/mystyle.css') }}">
     <link rel="stylesheet" href="{{ getAssetDir('assets/style/nextpage.css') }}">
     <link rel="stylesheet" href="{{getAssetDir('assets/style/masonry.css')}}">
+    <link rel="stylesheet" href="{{asset('css/testimoni.css')}}">
 
     <!-- font family -->
     <link rel="preconnect" href="https://fonts.googleapis.com">

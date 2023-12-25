@@ -9,6 +9,7 @@ use App\Http\Controllers\VotingController;
 use App\Http\Controllers\KandidatController;
 use App\Http\Controllers\PengaturanController;
 use App\Http\Controllers\LandingPageController;
+use App\Http\Controllers\NewsController;
 
 /*
 |--------------------------------------------------------------------------
@@ -76,10 +77,12 @@ Route::get('/news', [App\Http\Controllers\LandingPageController::class, 'news'])
 Route::get('/testimoni', [App\Http\Controllers\LandingPageController::class, 'testimoni'])->name('testimoni');
 
 Route::get('/struktur/kastrad',[DetailDivisiController::class,'kastrad']);
+Route::get('/struktur/humas',[DetailDivisiController::class,'humas']);
+Route::get('/struktur/minkat',[DetailDivisiController::class,'minkat']);
+Route::get('/struktur/psdm',[DetailDivisiController::class,'psdm']);
+
+Route::get('/news/tges',[NewsController::class,'TGES']);
 
 Route::post('/home/voter/send/{email}', [App\Http\Controllers\VoterController::class, 'sendEmail'])->name('email.send');
 
 Route::post('/home/voter/send/sendAll/All', [App\Http\Controllers\VoterController::class, 'sendEmailAll'])->name('email.all');
-
-
-

@@ -6,8 +6,17 @@
 .bg-green-1{
     background-color: #027777 !important;
     color: white;
+    border-radius: 30px !important;
 }
 .bg-green-2{
     background-color: #004B4B !important;
     color: white;
+    border-radius: 30px !important;
 }
+.radius-20{
+    border-radius: 20px !important;
+    padding: 0 !important;
+}
+.text-justify{
+    text-align: justify;
+  }
