@@ -8,59 +8,153 @@
     <title>Struktur Organisasi ASSETS</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="{{ getAssetDir('assets/style/mystyle.css') }}">
+    <link rel="stylesheet" href="../assets/style/struktur.css">
     <link rel="stylesheet" href="{{ getAssetDir('assets/style/nextpage.css') }}">
 </head>
 
 <body>
     <header>
-        <nav class="navbar bg-white fixed-top">
-            <div class="container-fluid navbar1">
-                <a class="navbar-brand text-success" href="/">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
-                    </svg>
-                    Kembali awawd
-                </a>
-                <a class="navbar-brand" href="#">
-                    <img src="{{ getAssetDir('assets/image/logo.png') }}" alt="" width="120" height="24"
+    <nav class="navbar navbar-expand-lg navbar-light bg-white ps-lg-5 fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/">
+                    <img src="{{ getAssetDir('assets/image/logo.jpg') }}" alt="" width="120" height="24"
                         class="d-inline-block align-text-top">
                 </a>
+            </div>
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item mx-1">
+                            <a class="nav-link" aria-current="page" href="#tentang">Tentang Kami</a>
+                        </li>
+                        <li class="nav-item mx-1">
+                            <a class="nav-link" href="#struktur">Struktur Organisasi</a>
+                        </li>
+                        <li class="nav-item mx-1">
+                            <a class="nav-link" href="#visi">Visi Misi</a>
+                        </li>
+                        <li class="nav-item mx-1">
+                            <a class="nav-link" href="#lokasi">Lokasi</a>
+                        </li>
+                        <li class="nav-item mx-1">
+                            <a class="nav-link" href="#galeri">Galeri</a>
+                        </li>
+                        <div class="dropdown">
+                            <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Vote
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <li><a class="dropdown-item" href="/livecount">Live Count</a></li>
+                                <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#myModal">Voting</a></li>
+                            </ul>
+                        </div>
+                    </ul>
+                </div>
             </div>
         </nav>
     </header>
 
     <main>
-        <div class="container">
-            <section id="struktur">
-                <div class="row featurette mt-5 mb-5 img-reveal">
-                    <div class="col-md-6 mb-5 ">
-                        <img src="{{ getAssetDir('assets/image/Team spirit.png') }}"
-                            class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto gambar"
-                            alt="Image of about" width="auto" height="500" loading="lazy">
+        <section id="struktur">
+            <div class="container">
+                <div class="struktur-title border-top-0 mt-5">
+                    <p class="text-center judul fw-bold">Struktur Organisasi ASSETS</p>
+                    <div class="justify-content-center d-flex align-items-center">
+                        <p class="text-center fw-bold judul">
+                            Kabinet
+                        </p>
+                        <img class="orion judul" src="./assets/image/orion.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-md-3 g-4 mt-5 mx-5 px-5">
+                <div class="col">
+                    <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Last updated 3 mins ago</small>
+                    </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Last updated 3 mins ago</small>
+                    </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Last updated 3 mins ago</small>
+                    </div>
+                    </div>
+                </div>
+                </div>
+        </section>
+
+            <section id="visi">
+                <div class="rounded tentang">
+                    <div class="text-center">
+                        <h1 class="display-5 fw-bold lh-1 mb-3 visi">
+                            Tentang
+                        </h1>
+                    </div>
+                    <div>
+                        <div class="container-fluid py-5 visi">
+                            <div class="row">
+                                <div class="col-md-6 text-center">
+                                    <button type="button" class="btn btn-visi mb-3">Visi</button>
+                                    <p>Mewujudkan ASSETS sebagai himpunan yang unggul, aktif, 
+                                        profesional, dan solid bersama dalam membangun kemajuan TRPL.</p>
+                                </div>
+                                <div class="col-md-6">
+                                    <img src="../assets/image/Picture1.png"
+                                        class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-reveal"
+                                        alt="Image of about" width="400" height="auto" loading="lazy">
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
-                    <div class="col-md-6 order-md-2">
-                        <div class="struktur">
-                            <h6 class="fw-bold text-success struktur judul">
-                                &mdash;&mdash; 
-                                STRUKTUR ORGANISASI
-                            </h6>
-                            <h1 class="display-5 fw-bold lh-1 mb-3 subjudul">
-                                Yuk kenali struktur organisasi di ASSETS
-                            </h1>
-                            <p class="lead fst-italic konten">ASSETS memiliki 5 divisi, yaitu Humas, PSDM, Kreatif, Kastrad, dan
-                                Minkat</p>
-                        </div>    
+                    <div class="container-fluid misi">
+                        <div class="text-center">
+                            <button type="button" class="btn btn-visi mb-3">Misi</button>
+                        </div>
+                        <ol>
+                            <li>
+                                Menjadi wadah dan memfasilitasi bakat serta minat mahasiswa TRPL
+                            </li>
+                            <li>
+                                Meningkatkan solidaritas dan kebersamaan antar mahasiswa TRPL
+                            </li>
+                            <li>
+                                Mengoptimalkan ASSETS sebagai wadah dalam mengaspirasikan mahasiswa TRPL
+                            </li>
+                            <li>
+                                Membangun relasi, pengembangan bakat akademik dan non akademik mahasiswa TRPL
+                            </li>
+                        </ol>
                     </div>
                 </div>
             </section>
-
-
-            <div class="d-flex justify-content-center awalan">
-                <img src="{{ getAssetDir('assets/image/struktur.png') }}" class="img-fluid awalan img-struktur" alt="Responsive image">
-                
-            </div>
 
             <!-- <div class="d-flex justify-content-center mt-3 awalan">
                 <button class="btn btn-success button1" type="button">
@@ -199,7 +293,6 @@
                     </div>
                 </div>
             </section>
-        </div>
     </main>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"

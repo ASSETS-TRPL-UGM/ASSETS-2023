@@ -14,11 +14,11 @@ class LandingPageController extends Controller
         return view('/struktur');
     }
 
-    public function notfound(){
-        return view('/notfound');
-    }
-
     public function newstruktur(){
         return view('/struktur2');
+    }
+
+    public function galeri(){
+        return view('/galeri');
     }
 }

@@ -70,5 +70,7 @@ Route::post('/home/voter/send/sendAll/All', [App\Http\Controllers\VoterControlle
 
 Route::get('/newstruktur', [App\Http\Controllers\LandingPageController::class, 'newstruktur'])->name('newstruktur');
 
+Route::get('/galeri', [App\Http\Controllers\LandingPageController::class, 'galeri'])->name('galeri');
+
 
 
