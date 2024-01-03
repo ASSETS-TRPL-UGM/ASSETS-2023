@@ -2,7 +2,7 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-cream ps-lg-5 sticky-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="/">
-                <img src="{{ getAssetDir('assets/image/logo.jpg') }}" alt="" width="120" height="24"
+                <img src="{{ asset('images/ASSETS.svg') }}" alt="" width="120" height="24"
                     class="d-inline-block align-text-top">
             </a>
         </div>

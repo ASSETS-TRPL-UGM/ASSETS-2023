@@ -1,4 +1,4 @@
-<div class="container-fluid footer bg-#146C43 p-5 position-absolute z-2">
+<div class="container-fluid footer bg-white p-5 position-absolute z-2">
     <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
         <div class="col d-flex align-items-start">
             <div>

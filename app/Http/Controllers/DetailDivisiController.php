@@ -19,5 +19,11 @@ class DetailDivisiController extends Controller
     public function psdm(){
         return view("detailDivisi.psdm");
     }
+    public function kreatif(){
+        return view("detailDivisi.kreatif");
+    }
+    public function pengurus_harian(){
+        return view("detailDivisi.ph");
+    }
 
 }
