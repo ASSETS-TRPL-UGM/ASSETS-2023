@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="{{getAssetDir('assets/style/masonry.css')}}">
     <link rel="stylesheet" href="{{asset('css/testimoni.css')}}">
 
+
     <!-- font family -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

@@ -13,6 +13,54 @@
 @endif
 <body style="overflow-x: hidden">
 
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white ps-lg-5 fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/">
+                    <img src="{{ getAssetDir('assets/image/logo.jpg') }}" alt="" width="120" height="24"
+                        class="d-inline-block align-text-top">
+                </a>
+            </div>
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item mx-1">
+                            <a class="nav-link" aria-current="page" href="#tentang">Tentang Kami</a>
+                        </li>
+                        <li class="nav-item mx-1">
+                            <a class="nav-link" href="#struktur">Struktur Organisasi</a>
+                        </li>
+                        <li class="nav-item mx-1">
+                            <a class="nav-link" href="#visi">Visi Misi</a>
+                        </li>
+                        <li class="nav-item mx-1">
+                            <a class="nav-link" href="#lokasi">Lokasi</a>
+                        </li>
+                        <li class="nav-item mx-1">
+                            <a class="nav-link" href="#galeri">Galeri</a>
+                        </li>
+                        <div class="dropdown">
+                            <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Vote
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <li><a class="dropdown-item" href="/livecount">Live Count</a></li>
+                                <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#myModal">Voting</a></li>
+                            </ul>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
     @include('components.navbar')
     <!-- Button trigger modal -->
 
@@ -120,52 +168,9 @@
                     </div>
                 </div>
             </section>
+        </div>
 
-            <section id="visi">
-                <div class="p-4 p-md-5 mb-4 text-white rounded bg-success">
-                    <div class="text-center judul">
-                        <h6 class="fw-bold text-warning">
-                            &mdash;&mdash;
-                            VISI & MISI
-                            &mdash;&mdash;
-                        </h6>
-                        <h1 class="display-5 fw-bold lh-1 mb-3">
-                            Apa itu visi & misi ASSET?
-                        </h1>
-                    </div>
-
-                    <div>
-                        <div class="container-fluid py-5 visi">
-                            <div class="text-center">
-                                <button type="button" class="btn btn-visi mb-3 text-white">VISI</button>
-                            </div>
-                            <p>Menjadikan assets sebagai wadah atau jembatan bagi para mahasiswa TRPL untuk
-                                memberikan aspirasinya dengan mengedepankan elemen kekeluargaan, keilmuan, kreatif,
-                                kolaboratif, dan inovatif untuk menciptakan assets yang bergelora.</p>
-                        </div>
-                    </div>
-
-                    <div class="container-fluid misi">
-                        <div class="text-center">
-                            <button type="button" class="btn btn-visi mb-3 text-white">MISI</button>
-                        </div>
-                        <ol>
-                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
-                                minima
-                                natus aspernatur maiores ipsam numquam quasi? Officia eveniet enim
-                                magni!
-                            </li>
-                            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis
-                                sequi,
-                                nostrum cum eos saepe voluptatem.</li>
-                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, in.
-                            </li>
-                        </ol>
-                    </div>
-                </div>
-
-            </section>
-
+            <div class="container">
             <section id="lokasi">
                 <div class="row featurette mt-5 mb-5">
                     <div class="col-md-5 awalan">
@@ -202,6 +207,7 @@
                     </div>
                 </div>
             </section>
+            </div>
 
             <section id="galeri">
                 <div class="row featurette mb-3 judul">
@@ -212,9 +218,6 @@
                     </h6>
                     <h1 class="display-5 fw-bold lh-1 text-center">Foto tentang ASSET</h1>
                     <p class="lead fst-italic text-center mb-3">Foto-foto yang berhubungan dengan kegiatan ASSET</p>
-                </div>
-
-                <hr class="my-5">
 
                 <ul class="rem-masonry judul" style="max-width: 100%!important;">
                     <li><img src="{{ getAssetDir('assets/image/bapakmu.jpg') }}" alt="masonry"></li>
@@ -231,7 +234,7 @@
                 </ul>
 
                 <div class="d-flex justify-content-center">
-                    <a href="galeri.html">
+                    <a href="{{route('galeri')}}">
                         <button type="button" class="btn btn-success btn-lg px-4 me-md-2 rounded-pill kotak">Lihat Semua
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                                 class="bi bi-caret-right-fill" viewBox="0 0 16 16">
@@ -363,7 +366,6 @@
                     </a>
                 </div>
             </section>
-        </div>
 
         <div class="modal-footer flex-column border-top-0 mt-5">
             <div class="saran judul">
