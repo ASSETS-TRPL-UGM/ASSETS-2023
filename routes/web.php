@@ -1,7 +1,15 @@
 <?php
 
-use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\DetailDivisiController;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\HomeController;
+use App\Http\Controllers\VoterController;
+use App\Http\Controllers\VotingController;
+use App\Http\Controllers\KandidatController;
+use App\Http\Controllers\PengaturanController;
+use App\Http\Controllers\LandingPageController;
+use App\Http\Controllers\NewsController;
 
 /*
 |--------------------------------------------------------------------------
@@ -64,13 +72,24 @@ Route::get('/tentang', [App\Http\Controllers\LandingPageController::class, 'tent
 
 Route::get('/struktur', [App\Http\Controllers\LandingPageController::class, 'struktur'])->name('struktur');
 
-Route::post('/home/voter/send/{email}', [App\Http\Controllers\VoterController::class, 'sendEmail'])->name('email.send');
+Route::get('/news', [App\Http\Controllers\LandingPageController::class, 'news'])->name('news');
 
-Route::post('/home/voter/send/sendAll/All', [App\Http\Controllers\VoterController::class, 'sendEmailAll'])->name('email.all');
+Route::get('/testimoni', [App\Http\Controllers\LandingPageController::class, 'testimoni'])->name('testimoni');
+
 
 Route::get('/newstruktur', [App\Http\Controllers\LandingPageController::class, 'newstruktur'])->name('newstruktur');
 
 Route::get('/galeri', [App\Http\Controllers\LandingPageController::class, 'galeri'])->name('galeri');
 
 
+Route::get('/struktur/kastrad',[DetailDivisiController::class,'kastrad']);
+Route::get('/struktur/humas',[DetailDivisiController::class,'humas']);
+Route::get('/struktur/minkat',[DetailDivisiController::class,'minkat']);
+Route::get('/struktur/psdm',[DetailDivisiController::class,'psdm']);
 
+
+Route::get('/news/tges',[NewsController::class,'TGES']);
+
+Route::post('/home/voter/send/{email}', [App\Http\Controllers\VoterController::class, 'sendEmail'])->name('email.send');
+
+Route::post('/home/voter/send/sendAll/All', [App\Http\Controllers\VoterController::class, 'sendEmailAll'])->name('email.all');
