@@ -310,9 +310,18 @@ section {
     border: nonde;
 }
 
+.card-body img{
+    margin-bottom: -30px;
+}
+
 .card-footer {
     background-color: #0D0C33;
     color: #FFEACA ;
     border-radius: 8px !important;
     border: none;
+}
+
+.card-footer small {
+    font-weight: bolder;
+    font-size: 20px;
 }
