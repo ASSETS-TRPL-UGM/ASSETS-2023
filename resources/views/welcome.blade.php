@@ -318,7 +318,7 @@
                   </div>
                   <div class="col-md">
                     <div class="card-body">
-                      <p class="card-text text-justify">"aku sih ga bisa berkata2 lagi , the best lah pokoknya untuk assets"</p>
+                      <p class="card-text text-justify fs-7">"aku sih ga bisa berkata2 lagi , the best lah pokoknya untuk assets"</p>
                       <p class="card-text text-end"><small class="">-Fabih TRPL-22</small></p>
                     </div>
                   </div>
@@ -335,7 +335,7 @@
                   </div>
                   <div class="col-md">
                     <div class="card-body">
-                      <p class="card-text text-justify ">Berdinamika di ASSETS telah memberikan banyak insight baru. Melalui proker-prokernya, ASSETS telah menjadi jalan penghubung antara industri dengan civitas akademik, khususnya mahasiswa Teknologi Rekayasa Perangkat Lunak, juga menjadi wadah penghubung antarmahasiswa untuk menciptakan TRPL yang satu. Menjadi bagian dari ASSETS adalah salah satu kesempatan baik yang telah saya ambil.</p>
+                      <p class="card-text text-justify fs-8">Berdinamika di ASSETS telah memberikan banyak insight baru. Melalui proker-prokernya, ASSETS telah menjadi jalan penghubung antara industri dengan civitas akademik, khususnya mahasiswa Teknologi Rekayasa Perangkat Lunak, juga menjadi wadah penghubung antarmahasiswa untuk menciptakan TRPL yang satu. Menjadi bagian dari ASSETS adalah salah satu kesempatan baik yang telah saya ambil.</p>
                       <p class="card-text text-end"><small class="">-Caca TRPL-22</small></p>
                     </div>
                   </div>
