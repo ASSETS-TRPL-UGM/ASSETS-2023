@@ -28,4 +28,5 @@ class LandingPageController extends Controller
 
     public function galeri(){
         return view('/galeri');
+    }
 }

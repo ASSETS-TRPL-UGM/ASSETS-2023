@@ -74,40 +74,145 @@
                 </div>
             </div>
             <div class="row row-cols-1 row-cols-md-3 g-4 mt-5 mx-5 px-5">
-                <div class="col">
+                <div class="col text-center">
                     <div class="card h-100">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <div class="card-body d-flex flex-column align-items-center justify-content-center">
+                        <h5 class="card-title">Ketua ASSETS</h5>
+                        <img src="../assets/image/rangga.png" width="250" class="img-fluid">
                     </div>
                     <div class="card-footer">
-                        <small class="text-body-secondary">Last updated 3 mins ago</small>
+                        <small class="text-body-secondary">Gisfa Putra Ryangga</small>
                     </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col text-center">
                     <div class="card h-100">
-                    <div class="card-body">
+                    <div class="card-body d-flex flex-column align-items-center justify-content-center">
                         <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                        <img src="../assets/image/cedric.png" width="250" class="img-fluid">
                     </div>
                     <div class="card-footer">
-                        <small class="text-body-secondary">Last updated 3 mins ago</small>
+                        <small class="text-body-secondary">todo</small>
                     </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col text-center">
                     <div class="card h-100">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                    <div class="card-body d-flex flex-column align-items-center justify-content-center">
+                        <h5 class="card-title">Sekretaris Jenderal</h5>
+                        <img src="../assets/image/wisnu.png" width="250" class="img-fluid">
                     </div>
                     <div class="card-footer">
-                        <small class="text-body-secondary">Last updated 3 mins ago</small>
+                        <small class="text-body-secondary">Antonius Krisargo W. N.</small>
                     </div>
                     </div>
                 </div>
+            </div>
+            <div class="row row-cols-1 row-cols-md-3 g-4 mt-5 mx-5 px-5">
+                <div class="col text-center">
+                    <div class="card h-100">
+                    <div class="card-body d-flex flex-column align-items-center justify-content-center">
+                        <h5 class="card-title">Sekretaris 1</h5>
+                        <img src="../assets/image/ninis.png" width="250" class="img-fluid">
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Ninis Dyah Y.</small>
+                    </div>
+                    </div>
                 </div>
+                <div class="col text-center">
+                    <div class="card h-100">
+                    <div class="card-body d-flex flex-column align-items-center justify-content-center">
+                        <h5 class="card-title">Sekretaris 2</h5>
+                        <img src="../assets/image/manda.png" width="250" class="img-fluid">
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Amanda Farliana S.</small>
+                    </div>
+                    </div>
+                </div>
+                <div class="col text-center">
+                    <div class="card h-100">
+                    <div class="card-body d-flex flex-column align-items-center justify-content-center">
+                        <h5 class="card-title">Bendahara 1</h5>
+                        <img src="../assets/image/rengganis.png" width="250" class="img-fluid">
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Rengganis W. P.</small>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-md-3 g-4 mt-5 mx-5 px-5" class="img-fluid">
+                <div class="col text-center">
+                    <div class="card h-100">
+                    <div class="card-body d-flex flex-column align-items-center justify-content-center">
+                        <h5 class="card-title">Bendahara 2</h5>
+                        <img src="../assets/image/lea.png" width="250" class="img-fluid">
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Maria Azalea N.</small>
+                    </div>
+                    </div>
+                </div>
+                <div class="col text-center">
+                    <div class="card h-100">
+                    <div class="card-body d-flex flex-column align-items-center justify-content-center">
+                        <h5 class="card-title">Kepala Divisi PSDM</h5>
+                        <img src="../assets/image/christo.png" width="250" class="img-fluid">
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Christophorus A. H. D.</small>
+                    </div>
+                    </div>
+                </div>
+                <div class="col text-center">
+                    <div class="card h-100">
+                    <div class="card-body d-flex flex-column align-items-center justify-content-center">
+                        <h5 class="card-title">Kepala Divisi Kreatif</h5>
+                        <img src="../assets/image/alan.png" width="250" class="img-fluid">
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Radivan Alan N.</small>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-md-3 g-4 mt-5 mx-5 px-5">
+                <div class="col text-center">
+                    <div class="card h-100">
+                    <div class="card-body d-flex flex-column align-items-center justify-content-center">
+                        <h5 class="card-title">Kepala Divisi Minkat</h5>
+                        <img src="../assets/image/farhan.png" width="250" class="img-fluid">
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Farhan Akmal Shaleh</small>
+                    </div>
+                    </div>
+                </div>
+                <div class="col text-center">
+                    <div class="card h-100">
+                    <div class="card-body d-flex flex-column align-items-center justify-content-center">
+                        <h5 class="card-title">Kepala Divisi Humas</h5>
+                        <img src="../assets/image/repan.png" width="250" class="img-fluid">
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Revandra Aryo Dwi K.</small>
+                    </div>
+                    </div>
+                </div>
+                <div class="col text-center">
+                    <div class="card h-100">
+                    <div class="card-body d-flex flex-column align-items-center justify-content-center">
+                        <h5 class="card-title">Kepala Divisi Kastrad</h5>
+                        <img src="../assets/image/taza.png" width="250" class="img-fluid">
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Ahmad F. Mumtaza</small>
+                    </div>
+                    </div>
+                </div>
+            </div>
         </section>
 
             <section id="visi">
@@ -127,7 +232,7 @@
                                 </div>
                                 <div class="col-md-6">
                                     <img src="../assets/image/Picture1.png"
-                                        class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-reveal"
+                                        class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-reveal img-fluid"
                                         alt="Image of about" width="400" height="auto" loading="lazy">
                                 </div>
                             </div>
