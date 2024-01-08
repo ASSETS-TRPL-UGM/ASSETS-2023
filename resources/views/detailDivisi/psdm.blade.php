@@ -9,7 +9,7 @@
         <div class="container my-5 pt-5  mx-auto position-relative z-1">
             <div class="row row-cols-1 row-cols-md-2">
                 <div class="col" data-aos="fade-right" data-aos-duration="1000">
-                    <img src="{{ asset('assets/image/humas/humas.png') }}" class="card-img-top rounded-2"
+                    <img src="{{ asset('assets/image/psdm/psdm.png') }}" class="card-img-top rounded-2"
                         style="max-width:560px; max-height:320px;" alt="...">
                 </div>
                 <div class="col" data-aos="fade-left" data-aos-duration="1000">
@@ -37,7 +37,7 @@
             <div class="container m-4">
                 <div class="row row-cols-2 row-cols-md-4 g-3">
                     <div class="col">
-                        <div class="card prokerCard pt-2 px-0 m-0">
+                        <div class="card prokerCard pt-2 px-0 m-0" style="height: 360px">
                             <div
                                 class=" container d-flex flex-column align-items-center justify-content-center card-img-top ">
                                 <img src="{{ asset('images/Sun.svg') }}" class="z-0 position-relative sun " alt="..."
@@ -49,12 +49,12 @@
                             </div>
                             <div class=" card-body text-center py-2  my-0 px-2 ">
                                 <h5 class="card-title fs-6 ">First Gathering ASSETS</h5>
-                                <p class="card-text fs-7">Relaunching website ASSETS merupakan program kerja divisi humas dalam memperbarui dan mengelola website ASSETS untuk layanan informasi dan sarana voting pemira</p>
+                                <p class="card-text fs-7">First Gathering ASSETS merupakan perkumpulan pertama pengurus ASSETS setelah dilakukannya Open Recruitment</p>
                             </div>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card prokerCard pt-2 px-0 m-0">
+                        <div class="card prokerCard pt-2 px-0 m-0"style="height: 360px">
                             <div
                                 class=" container d-flex flex-column align-items-center justify-content-center card-img-top ">
                                 <img src="{{ asset('images/Sun.svg') }}" class="z-0 position-relative sun " alt="..."
@@ -66,12 +66,12 @@
                             </div>
                             <div class=" card-body text-center pb-4 pt-2  my-0 px-2 ">
                                 <h5 class="card-title fs-6">Series</h5>
-                                <p class="card-text fs-7">Merch Trojan merupakan program kerja sub-divisi kewirausahaan dalam mengelola kaos Trojan demi memperoleh profit dalam penjualannya</p>
+                                <p class="card-text fs-7">SERIES merupakan Software Engineering Oriented Study event untuk mahasiswa baru agar mempererat keakraban</p>
                             </div>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card prokerCard pt-2 px-0 m-0">
+                        <div class="card prokerCard pt-2 px-0 m-0"style="height: 360px">
                             <div
                                 class=" container d-flex flex-column align-items-center justify-content-center card-img-top ">
                                 <img src="{{ asset('images/Sun.svg') }}" class="z-0 position-relative sun " alt="..."
@@ -83,12 +83,12 @@
                             </div>
                             <div class=" card-body text-center pb-4 pt-2  my-0 px-2 ">
                                 <h5 class="card-title fs-6 ">Belajar Bareng TRPL</h5>
-                                <p class="card-text fs-7">Korsa TRPL  merupakan program kerja sub-divisi kewirausahaan dalam mengelola Korsa TRPL demi memperoleh profit dalam penjualannya</p>
+                                <p class="card-text fs-7">Belajar Bareng merupakan acara belajar bersama menjelang UTS & UAS agar lebih siap lagi memahami materi</p>
                             </div>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card prokerCard pt-2 px-0 m-0">
+                        <div class="card prokerCard pt-2 px-0 m-0" style="height: 360px">
                             <div
                                 class=" container d-flex flex-column align-items-center justify-content-center card-img-top ">
                                 <img src="{{ asset('images/Sun.svg') }}" class="z-0 position-relative sun "
@@ -100,24 +100,7 @@
                             </div>
                             <div class=" card-body text-center pb-4 pt-2  my-0 px-2 ">
                                 <h5 class="card-title fs-6">Birthday Staff</h5>
-                                <p class="card-text fs-7">Jersey Futsal  merupakan program kerja sub-divisi kewirausahaan dalam mengelola Jersey Futsal demi memperoleh profit dalam penjualannya</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card prokerCard pt-2 px-0 m-0">
-                            <div
-                                class=" container d-flex flex-column align-items-center justify-content-center card-img-top ">
-                                <img src="{{ asset('images/Sun.svg') }}" class="z-0 position-relative sun "
-                                    alt="..." style="width:100%; height:100%">
-                                <img src="{{ asset('images/Ellipse 1.svg') }}" class=" z-1 position-absolute"
-                                    style="width:20%; height:20%;" alt="">
-                                <img src="{{ asset('assets/image/humas/medpar.svg') }}"
-                                    class=" z-2 position-absolute" style="width:10%; height:10%;" alt="">
-                            </div>
-                            <div class=" card-body text-center py-4  my-0 px-2 ">
-                                <h5 class="card-title ">Media Partner</h5>
-                                <p class="card-text fs-7">Media Partner merupakan bentuk kerjasama yang terjalin antara penyelenggara event dengan ASSETS UGM</p>
+                                <p class="card-text fs-7">Birthday Staff merupakan ucapan ulang tahun  untuk pengurus ASSETS</p>
                             </div>
                         </div>
                     </div>

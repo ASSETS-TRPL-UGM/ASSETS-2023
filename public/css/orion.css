@@ -107,7 +107,10 @@
       z-index: 2;
       left: 300px;
   }
-
+  .center-crop{
+    object-fit: cover !important;
+    object-position: center !important;
+  }
   #next {
       left: unset;
       right: 300px;
@@ -189,6 +192,10 @@
     right: -300px;
     top: 500px;
     opacity: 0.4;
+  }
+
+  .no-underlined{
+    text-decoration: none !important;
   }
 
   @media (max-width: 768px) {

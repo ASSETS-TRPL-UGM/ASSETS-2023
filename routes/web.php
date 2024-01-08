@@ -86,8 +86,11 @@ Route::get('/struktur/kastrad',[DetailDivisiController::class,'kastrad']);
 Route::get('/struktur/humas',[DetailDivisiController::class,'humas']);
 Route::get('/struktur/minkat',[DetailDivisiController::class,'minkat']);
 Route::get('/struktur/psdm',[DetailDivisiController::class,'psdm']);
+Route::get('/struktur/kreatif',[DetailDivisiController::class,'kreatif']);
+Route::get('/struktur/pengurus-harian',[DetailDivisiController::class,'pengurus_harian']);
 
-
+Route::get('/news/setan-alas',[NewsController::class,'setan_alas']);
+Route::get('/news/pimnas-2023',[NewsController::class,'pimnas_2023']);
 Route::get('/news/tges',[NewsController::class,'TGES']);
 
 Route::post('/home/voter/send/{email}', [App\Http\Controllers\VoterController::class, 'sendEmail'])->name('email.send');
