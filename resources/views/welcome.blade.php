@@ -284,7 +284,7 @@
                   </div>
                   <div class="col">
                     <div class="card-body">
-                      <p class="card-text text-justify">Saya senang dan bangga bisa menjadi bagian dari ASSETS. Karena di ASSETS saya mendapat teman-teman baru, teman-teman yang baik dan supportive. Proker yang ada di ASSETS juga seru-seru dan tentunya bermanfaat. Gokil bangett lahhh ASSETS 🤩</p>
+                      <p class="card-text text-justify fs-7">Saya senang dan bangga bisa menjadi bagian dari ASSETS. Karena di ASSETS saya mendapat teman-teman baru, teman-teman yang baik dan supportive. Proker yang ada di ASSETS juga seru-seru dan tentunya bermanfaat. Gokil bangett lahhh ASSETS 🤩</p>
                       <p class="card-text text-end"><small class="">-Rangga TRPL-21</small></p>
                     </div>
                   </div>
@@ -301,7 +301,7 @@
                   </div>
                   <div class="col-md">
                     <div class="card-body">
-                      <p class="card-text text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ex eaque sed totam sunt, quisquam, illo maxime exercitationem iusto officia sequi natus impedit tenetur quod! Cum vitae ut quae in.</p>
+                      <p class="card-text text-justify fs-7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ex eaque sed totam sunt, quisquam, illo maxime exercitationem iusto officia sequi natus impedit tenetur quod! Cum vitae ut quae in.</p>
                       <p class="card-text text-end"><small class="">-Wisnu TRPL-21</small></p>
                     </div>
                   </div>
