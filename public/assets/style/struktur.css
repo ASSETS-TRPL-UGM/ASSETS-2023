@@ -112,8 +112,20 @@ section {
     background: #FFEACA;
     width: 100%;
     padding: 10px 20px; 
-    color: #2f343a;
-    font-size: 24px;
+    color: #0D0C33;
+    font-size: 48px;
+    text-shadow: 2px 2px 3px rgba(132, 131, 131, 0.9);
+}
+
+#struktur {
+    background-color: #0D0C33;
+    margin-bottom: 0px;
+    padding-bottom: 48px;
+}
+
+.orion {
+    height: auto;
+    width: 200px;
 }
 
 #visi {
@@ -265,11 +277,6 @@ section {
     text-align: justify;
 }
 
-.lokasi{
-    width: 100%;
-    height: 60vh;
-}
-
 /* struktur organisasi */
 .img-struktur{
     margin-top: 20px;
@@ -277,38 +284,35 @@ section {
     width: 70%;
 }
 
-
-::-webkit-scrollbar{
-    width: 15px;
-}
-::-webkit-scrollbar-track{
-    background-color: white;
-}
-::-webkit-scrollbar-thumb{
-    background-image: linear-gradient(to bottom,#40aa97,black);
-    border-radius: 5px;
-}
-::-webkit-scrollbar-thumb:hover{
-    background-image: linear-gradient(to bottom,#40aa90,black);
+#struktur .card-group {
+    margin: 5px 120px;
 }
 
-.btn-galeri {
-    font-size: 18px;
-    font-weight: bold;
-    color: #004B4B;
-    border-radius: 30px;
-    border-width: 3px;
-    border-color: #004B4B;
-    padding: 5px 22px;
+#struktur .card {
+    margin: 0px 75px;
+    z-index: 0;
 }
 
-.btn-galeri:hover{
-    font-size: 18px;
-    font-weight: bold;
-    color: white;
-    border-radius: 30px;
-    border-width: 3px;
-    border-color: #004B4B;
-    background: #004B4B;
-    padding: 5px 22px;
-    box-shadow: none;
+.card {
+    background-color: #FFEACA;
+    border-radius: 10px;
+    border: none;
+}
+
+.card-title {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.card-body {
+    background-color: #FFEACA;
+    border-radius: 10px;
+    border: nonde;
+}
+
+.card-footer {
+    background-color: #0D0C33;
+    color: #FFEACA ;
+    border-radius: 8px !important;
+    border: none;
+}
