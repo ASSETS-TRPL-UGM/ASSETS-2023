@@ -10,6 +10,7 @@ use App\Http\Controllers\KandidatController;
 use App\Http\Controllers\PengaturanController;
 use App\Http\Controllers\LandingPageController;
 use App\Http\Controllers\NewsController;
+use App\Http\Controllers\GaleriController;
 
 /*
 |--------------------------------------------------------------------------
@@ -93,3 +94,5 @@ Route::get('/news/tges',[NewsController::class,'TGES']);
 Route::post('/home/voter/send/{email}', [App\Http\Controllers\VoterController::class, 'sendEmail'])->name('email.send');
 
 Route::post('/home/voter/send/sendAll/All', [App\Http\Controllers\VoterController::class, 'sendEmailAll'])->name('email.all');
+
+Route::get('/galeri/{year?}', [App\Http\Controllers\GaleriController::class, 'showGallery'])->name('galeri.year');

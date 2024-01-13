@@ -4,7 +4,6 @@
     box-sizing: border-box;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 550;
     scroll-behavior: smooth;
 }
 
@@ -19,6 +18,12 @@ section {
     -moz-user-select: none;
     user-select: none;
 }
+
+body, html {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+  }
 
 @media (min-width: 768px) {
     .bd-placeholder-img-lg {
@@ -55,7 +60,7 @@ section {
         font-size: 23px;
     }
 
-    .row p {
+    .row p, li {
         font-size: 12px;
     }
 
@@ -104,6 +109,23 @@ section {
     .spirit{
         width: 85%;
     }
+
+    #visi {
+        background-color: #FFEACA;
+        padding: 5px 0px;
+    }
+    
+    #visi .tentang {
+        background-color: #0D0C33;
+        margin: 10px 0px;
+        padding: 10px 0px;
+        border-radius: 10px;
+    }
+
+    #visi h1 {
+        color: #FFEACA;
+        font-size: 24px;
+    }
 }
 
 .struktur-title {
@@ -121,11 +143,16 @@ section {
     background-color: #0D0C33;
     margin-bottom: 0px;
     padding-bottom: 48px;
+    height: 135rem;
+    overflow: hidden;
+    position: relative;
 }
 
 .orion {
     height: auto;
     width: 200px;
+    margin-bottom: 40px;
+    margin-left: 20px;
 }
 
 #visi {
@@ -142,7 +169,6 @@ section {
 
 #visi h1 {
     color: #FFEACA;
-    font-size: 42px;
 }
 
 #visi p, li{
@@ -284,8 +310,11 @@ section {
     width: 70%;
 }
 
-#struktur .card-group {
-    margin: 5px 120px;
+#struktur .row {
+    margin-top: 3rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    padding: 0rem 3rem;
 }
 
 #struktur .card {
@@ -300,18 +329,17 @@ section {
 }
 
 .card-title {
-    font-size: 24px;
     font-weight: bolder;
 }
 
 .card-body {
     background-color: #FFEACA;
     border-radius: 10px;
-    border: nonde;
+    border: none;
 }
 
 .card-body img{
-    margin-bottom: -30px;
+    margin-bottom: -35px;
 }
 
 .card-footer {
@@ -323,5 +351,145 @@ section {
 
 .card-footer small {
     font-weight: bolder;
-    font-size: 20px;
+}
+
+.card-middle{
+    margin-bottom: 0px !important;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .struktur-title {
+        font-size: 30px;
+        text-shadow: 2px 2px 3px rgba(132, 131, 131, 0.9);
+    }
+
+    .orion {
+        height: auto;
+        width: 150px;
+        margin-bottom: 40px;
+        margin-left: 20px;
+    }
+
+    #struktur {
+        height: 75%;
+        padding-bottom: 90px;
+    }
+
+    #struktur .card-group {
+        margin: 2px 20px;
+    }
+    
+    #struktur .card {
+        margin: 0px 10px;
+        z-index: 0;
+    }
+    .card-title {
+        font-size: 10px;
+        font-weight: bolder;
+    }
+    .card-footer {
+        font-weight: bolder;
+        font-size: 10px;
+    }
+    .card-body {
+        background-color: #FFEACA;
+        border-radius: 8px;
+        border: none;
+    }
+    
+    #struktur .row {
+        margin-top: 5px 0px;
+    }
+    #visi .tentang{
+        margin: 90px 15px;
+        padding: 10px;
+    }
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .struktur-title {
+        font-size: 20px;
+        text-shadow: 2px 2px 3px rgba(132, 131, 131, 0.9);
+    }
+
+    .orion {
+        height: auto;
+        width: 100px;
+        margin-bottom: 30px;
+        margin-left: 10px;
+    }
+
+    #struktur .card-group {
+        margin: 0px;
+    }
+    
+    #struktur .card {
+        margin: 0px;
+        z-index: 0;
+    }
+    .card-title {
+        font-size: 5px;
+        font-weight: bolder;
+    }
+    .card-footer {
+        font-weight: bolder;
+        font-size:0.5vmax;
+        border-radius: 4px !important;
+        padding: 3px;
+    }
+
+    .card-body {
+        background-color: #FFEACA;
+        border-radius: 5px;
+        border: none;
+    }
+    #struktur .row {
+        margin-top: 10px;
+        padding: 0rem;
+    }
+    .card-body img{
+        margin-bottom: -20px;
+    }
+
+    #visi .tentang{
+        margin: 30px;
+        padding: 5px;
+    }
+    #visi{
+        padding: 24px 0px;
+    }
+    .btn-visi {
+        font-size: 14px;
+    }
+    #struktur {
+        margin-bottom: 60px;
+        margin-top: 5px;
+        height: 50%;
+    }
+  }
+
+.yellow {
+    height: 500px;
+    width: 500px;
+    background-color: #E0D81C;
+    display: inline-block;
+    border-radius: 50%;
+    filter: blur(100px);
+    position: absolute;
+    left: -300px;
+    top: 800px;
+    opacity: 0.4;
+}
+
+.red{
+  height: 500px;
+  width: 500px;
+  background-color: #C31414;
+  display: inline-block;
+  border-radius: 50%;
+  filter: blur(100px);
+  position: absolute;
+  right: -300px;
+  top: 1355px;
+  opacity: 0.4;
 }
