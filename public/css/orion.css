@@ -60,6 +60,9 @@
       background-color: #FFEACA;
       opacity: 80%;
   }
+  .teamCard:hover .card-body .card-title{
+    color: black !important;
+  }
 
   .z-n1 {
       z-index: -1 !important;
@@ -85,13 +88,14 @@
   .item {
       position: absolute !important;
       width: 380px;
-      height: 500px;
+      height: 400px !important;
       text-align: justify !important;
       padding: 20px;
       transition: 0.5s;
       left: calc(50% - 195px);
       top: 0;
-
+      object-fit: cover !important;
+      object-position: center;
   }
 
   #next,
@@ -219,6 +223,10 @@
         visibility: hidden;
       }
   }
+  .teamCard .card-body .card-title{
+    color: white !important;
+  }
+
 
   .welcome {
       background-image: url('../images/anu.gif');

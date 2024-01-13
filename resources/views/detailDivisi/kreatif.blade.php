@@ -121,15 +121,10 @@
                             id="card1">
                             <img src="{{ asset('assets/image/kreatif/syuja1.JPG') }}"
                                 class="card-img-top position-relative z-0" alt="...">
-                            <div class="card-body position-absolute z-1 bottom-0  py-2 container-fluid rounded-bottom-2 ">
+                            <div class="card-body position-absolute z-1 bottom-0  pb-4 container-fluid rounded-bottom-2 ">
                                 <div class="text-center">
                                     <h5 class="card-title text-center ">Syuja</h5>
                                     <h6 class="card-subtitle mb-2 text-muted text-center ">Anggota Divisi</h6>
-                                    <div class="container d-flex justify-content-center g-5">
-                                        <img src="{{ asset('assets/image/Linkedin.svg') }}" alt="">
-                                        <img src="{{ asset('assets/image/Github.svg') }}" alt="">
-                                        <img src="{{ asset('assets/image/Instagram.svg') }}" alt="">
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -139,15 +134,11 @@
                             id="card1">
                             <img src="{{ asset('assets/image/kreatif/nopal1.JPG') }}"
                                 class="card-img-top position-relative z-0" alt="...">
-                            <div class="card-body position-absolute z-1 bottom-0  py-2 container-fluid rounded-bottom-2 ">
+                            <div class="card-body position-absolute z-1 bottom-0  pb-4 container-fluid rounded-bottom-2 ">
                                 <div class="text-center">
                                     <h5 class="card-title text-center ">Nopal</h5>
                                     <h6 class="card-subtitle mb-2 text-muted text-center ">Anggota Divisi</h6>
-                                    <div class="container d-flex justify-content-center g-1">
-                                        <img src="{{ asset('assets/image/Linkedin.svg') }}" alt="">
-                                        <img src="{{ asset('assets/image/Github.svg') }}" alt="">
-                                        <img src="{{ asset('assets/image/Instagram.svg') }}" alt="">
-                                    </div>
+
                                 </div>
                             </div>
                         </div>
@@ -157,15 +148,11 @@
                             id="card1">
                             <img src="{{ asset('assets/image/kreatif/yandi1.JPG') }}"
                                 class="card-img-top position-relative z-0" alt="...">
-                            <div class="card-body position-absolute z-1 bottom-0  py-2 container-fluid rounded-bottom-2 ">
+                            <div class="card-body position-absolute z-1 bottom-0  pb-4 container-fluid rounded-bottom-2 ">
                                 <div class="text-center">
                                     <h5 class="card-title text-center ">Yandi</h5>
                                     <h6 class="card-subtitle mb-2 text-muted text-center ">Anggota Divisi</h6>
-                                    <div class="container d-flex justify-content-center g-1">
-                                        <img src="{{ asset('assets/image/Linkedin.svg') }}" alt="">
-                                        <img src="{{ asset('assets/image/Github.svg') }}" alt="">
-                                        <img src="{{ asset('assets/image/Instagram.svg') }}" alt="">
-                                    </div>
+
                                 </div>
                             </div>
                         </div>
@@ -175,15 +162,10 @@
                             id="card1">
                             <img src="{{ asset('assets/image/kreatif/aka1.JPG') }}"
                                 class="card-img-top position-relative z-0" alt="...">
-                            <div class="card-body position-absolute z-1 py-2 container-fluid bottom-0 rounded-bottom-2 ">
+                            <div class="card-body position-absolute z-1 pb-4 container-fluid bottom-0 rounded-bottom-2 ">
                                 <div class="text-center">
                                     <h5 class="card-title text-center ">Aka</h5>
                                     <h6 class="card-subtitle mb-2 text-muted text-center ">Kepala Divisi</h6>
-                                    <div class="container d-flex justify-content-center g-3 ">
-                                        <img src="{{ asset('assets/image/Linkedin.svg') }}" alt="">
-                                        <img src="{{ asset('assets/image/Github.svg') }}" alt="">
-                                        <img src="{{ asset('assets/image/Instagram.svg') }}" alt="">
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -193,15 +175,11 @@
                             id="card1">
                             <img src="{{ asset('assets/image/kreatif/resanti1.JPG') }}"
                                 class="card-img-top position-relative z-0" alt="...">
-                            <div class="card-body position-absolute z-1 py-2 container-fluid bottom-0 rounded-bottom-2 ">
+                            <div class="card-body position-absolute z-1 pb-4 container-fluid bottom-0 rounded-bottom-2 ">
                                 <div class="text-center">
                                     <h5 class="card-title text-center ">Resanti</h5>
                                     <h6 class="card-subtitle mb-2 text-muted text-center ">Anggota Divisi</h6>
-                                    <div class="container d-flex justify-content-center g-1">
-                                        <img src="{{ asset('assets/image/Linkedin.svg') }}" alt="">
-                                        <img src="{{ asset('assets/image/Github.svg') }}" alt="">
-                                        <img src="{{ asset('assets/image/Instagram.svg') }}" alt="">
-                                    </div>
+
                                 </div>
                             </div>
                         </div>
@@ -211,15 +189,11 @@
                             id="card1">
                             <img src="{{ asset('assets/image/kreatif/velly1.JPG') }}"
                                 class="card-img-top position-relative z-0" alt="...">
-                            <div class="card-body position-absolute z-1 py-2 container-fluid bottom-0 rounded-bottom-2 ">
+                            <div class="card-body position-absolute z-1 pb-4 container-fluid bottom-0 rounded-bottom-2 ">
                                 <div class="text-center">
                                     <h5 class="card-title text-center ">Velly</h5>
                                     <h6 class="card-subtitle mb-2 text-muted text-center ">Anggota Divisi</h6>
-                                    <div class="container d-flex justify-content-center g-1">
-                                        <img src="{{ asset('assets/image/Linkedin.svg') }}" alt="">
-                                        <img src="{{ asset('assets/image/Github.svg') }}" alt="">
-                                        <img src="{{ asset('assets/image/Instagram.svg') }}" alt="">
-                                    </div>
+
                                 </div>
                             </div>
                         </div>

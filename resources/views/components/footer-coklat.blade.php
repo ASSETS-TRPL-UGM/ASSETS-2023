@@ -64,7 +64,7 @@
                         </td>
                         <td>
                             <div class="fw-lighter ">Address: </div>
-                            <div class="fw-bold text-lavender">Special Region of Yogyakarta</div>
+                            <a class="fw-bold text-lavender no-underlined" href="https://maps.app.goo.gl/m7ek6KC3t4Npy54WA">Special Region of Yogyakarta</a>
                         </td>
                     </tr>
                 </table>

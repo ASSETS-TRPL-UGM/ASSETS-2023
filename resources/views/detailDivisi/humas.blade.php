@@ -138,15 +138,10 @@
                             id="card1">
                             <img src="{{ asset('assets/image/humas/aji1.JPG') }}"
                                 class="card-img-top position-relative z-0" alt="...">
-                            <div class="card-body position-absolute z-1 bottom-0  py-2 container-fluid rounded-bottom-2 ">
+                            <div class="card-body position-absolute z-1 bottom-0  pb-4 container-fluid rounded-bottom-2 ">
                                 <div class="text-center">
                                     <h5 class="card-title text-center ">Aji</h5>
                                     <h6 class="card-subtitle mb-2 text-muted text-center ">Anggota Divisi</h6>
-                                    <div class="container d-flex justify-content-center g-5">
-                                        <img src="{{ asset('assets/image/Linkedin.svg') }}" alt="">
-                                        <img src="{{ asset('assets/image/Github.svg') }}" alt="">
-                                        <img src="{{ asset('assets/image/Instagram.svg') }}" alt="">
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -156,15 +151,11 @@
                             id="card1">
                             <img src="{{ asset('assets/image/humas/fabih1.JPG') }}"
                                 class="card-img-top position-relative z-0" alt="...">
-                            <div class="card-body position-absolute z-1 bottom-0  py-2 container-fluid rounded-bottom-2 ">
+                            <div class="card-body position-absolute z-1 bottom-0  pb-4 container-fluid rounded-bottom-2 ">
                                 <div class="text-center">
                                     <h5 class="card-title text-center ">Fabih</h5>
                                     <h6 class="card-subtitle mb-2 text-muted text-center ">Manusia Super</h6>
-                                    <div class="container d-flex justify-content-center g-1">
-                                        <img src="{{ asset('assets/image/Linkedin.svg') }}" alt="">
-                                        <img src="{{ asset('assets/image/Github.svg') }}" alt="">
-                                        <img src="{{ asset('assets/image/Instagram.svg') }}" alt="">
-                                    </div>
+
                                 </div>
                             </div>
                         </div>
@@ -174,15 +165,11 @@
                             id="card1">
                             <img src="{{ asset('assets/image/humas/caca1.JPG') }}"
                                 class="card-img-top position-relative z-0" alt="...">
-                            <div class="card-body position-absolute z-1 bottom-0  py-2 container-fluid rounded-bottom-2 ">
+                            <div class="card-body position-absolute z-1 bottom-0  pb-4 container-fluid rounded-bottom-2 ">
                                 <div class="text-center">
                                     <h5 class="card-title text-center ">Caca</h5>
                                     <h6 class="card-subtitle mb-2 text-muted text-center ">Anggota Divisi</h6>
-                                    <div class="container d-flex justify-content-center g-1">
-                                        <img src="{{ asset('assets/image/Linkedin.svg') }}" alt="">
-                                        <img src="{{ asset('assets/image/Github.svg') }}" alt="">
-                                        <img src="{{ asset('assets/image/Instagram.svg') }}" alt="">
-                                    </div>
+
                                 </div>
                             </div>
                         </div>
@@ -192,15 +179,11 @@
                             id="card1">
                             <img src="{{ asset('assets/image/humas/elyra1.JPG') }}"
                                 class="card-img-top position-relative z-0" alt="...">
-                            <div class="card-body position-absolute z-1 py-2 container-fluid bottom-0 rounded-bottom-2 ">
+                            <div class="card-body position-absolute z-1 pb-4 container-fluid bottom-0 rounded-bottom-2 ">
                                 <div class="text-center">
                                     <h5 class="card-title text-center ">Elyra</h5>
                                     <h6 class="card-subtitle mb-2 text-muted text-center ">Anggota Divisi</h6>
-                                    <div class="container d-flex justify-content-center g-3 ">
-                                        <img src="{{ asset('assets/image/Linkedin.svg') }}" alt="">
-                                        <img src="{{ asset('assets/image/Github.svg') }}" alt="">
-                                        <img src="{{ asset('assets/image/Instagram.svg') }}" alt="">
-                                    </div>
+
                                 </div>
                             </div>
                         </div>
@@ -210,15 +193,11 @@
                             id="card1">
                             <img src="{{ asset('assets/image/humas/luthfia1.JPG') }}"
                                 class="card-img-top position-relative z-0" alt="...">
-                            <div class="card-body position-absolute z-1 py-2 container-fluid bottom-0 rounded-bottom-2 ">
+                            <div class="card-body position-absolute z-1 pb-4 container-fluid bottom-0 rounded-bottom-2 ">
                                 <div class="text-center">
                                     <h5 class="card-title text-center ">Luthfia</h5>
                                     <h6 class="card-subtitle mb-2 text-muted text-center ">Anggota Divisi</h6>
-                                    <div class="container d-flex justify-content-center g-1">
-                                        <img src="{{ asset('assets/image/Linkedin.svg') }}" alt="">
-                                        <img src="{{ asset('assets/image/Github.svg') }}" alt="">
-                                        <img src="{{ asset('assets/image/Instagram.svg') }}" alt="">
-                                    </div>
+
                                 </div>
                             </div>
                         </div>

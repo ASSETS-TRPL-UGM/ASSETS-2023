@@ -46,9 +46,9 @@
                                 <img src="{{ asset('assets/image/ph/gemastik.svg') }}"
                                     class=" z-2 position-absolute" style="width:10%; height:10%;" alt="">
                             </div>
-                            <div class=" card-body text-center py-2  my-0 px-2 ">
+                            <div class=" card-body text-center pb-4  my-0 px-2 ">
                                 <h5 class="card-title fs-6 ">Sharing Session Gemastik </h5>
-                                <p class="card-text fs-7">Penjelasan dan pendampingan untuk mahasiswa yang mengikuti GEMASTIK atau Pagelaran Mahasiswa Nasional Bidang Teknologi Informasi dan Komunikasi, </p>
+                                <p class="card-text fs-7">Penjelasan dan pendampingan untuk mahasiswa yang mengikuti GEMASTIK atau Pagelaran Mahasiswa Nasional Bidang TIK </p>
                             </div>
                         </div>
                     </div>
@@ -120,15 +120,11 @@
                             id="card1">
                             <img src="{{ asset('assets/image/ph/amanda1.JPG') }}"
                                 class="card-img-top position-relative z-0" alt="...">
-                            <div class="card-body position-absolute z-1 bottom-0  py-2 container-fluid rounded-bottom-2 ">
+                            <div class="card-body position-absolute z-1 bottom-0  pb-4 container-fluid rounded-bottom-2 ">
                                 <div class="text-center">
                                     <h5 class="card-title text-center ">Amanda</h5>
                                     <h6 class="card-subtitle mb-2 text-muted text-center ">Sekretaris 2</h6>
-                                    <div class="container d-flex justify-content-center g-5">
-                                        <img src="{{ asset('assets/image/Linkedin.svg') }}" alt="">
-                                        <img src="{{ asset('assets/image/Github.svg') }}" alt="">
-                                        <img src="{{ asset('assets/image/Instagram.svg') }}" alt="">
-                                    </div>
+
                                 </div>
                             </div>
                         </div>
@@ -138,15 +134,11 @@
                             id="card1">
                             <img src="{{ asset('assets/image/ph/ninis1.JPG') }}"
                                 class="card-img-top position-relative z-0" alt="...">
-                            <div class="card-body position-absolute z-1 bottom-0  py-2 container-fluid rounded-bottom-2 ">
+                            <div class="card-body position-absolute z-1 bottom-0 pb-4 container-fluid rounded-bottom-2 ">
                                 <div class="text-center">
                                     <h5 class="card-title text-center ">Ninis Dyah</h5>
                                     <h6 class="card-subtitle mb-2 text-muted text-center ">Sekretaris 1</h6>
-                                    <div class="container d-flex justify-content-center g-1">
-                                        <img src="{{ asset('assets/image/Linkedin.svg') }}" alt="">
-                                        <img src="{{ asset('assets/image/Github.svg') }}" alt="">
-                                        <img src="{{ asset('assets/image/Instagram.svg') }}" alt="">
-                                    </div>
+
                                 </div>
                             </div>
                         </div>
@@ -156,15 +148,11 @@
                             id="card1">
                             <img src="{{asset('assets/image/ph/lea1.JPG')}}"
                                 class="card-img-top position-relative z-0" alt="...">
-                            <div class="card-body position-absolute z-1 bottom-0  py-2 container-fluid rounded-bottom-2 ">
+                            <div class="card-body position-absolute z-1 bottom-0  pb-4 container-fluid rounded-bottom-2 ">
                                 <div class="text-center">
                                     <h5 class="card-title text-center ">Lea</h5>
                                     <h6 class="card-subtitle mb-2 text-muted text-center ">Bendahara 2</h6>
-                                    <div class="container d-flex justify-content-center g-1">
-                                        <img src="{{ asset('assets/image/Linkedin.svg') }}" alt="">
-                                        <img src="{{ asset('assets/image/Github.svg') }}" alt="">
-                                        <img src="{{ asset('assets/image/Instagram.svg') }}" alt="">
-                                    </div>
+
                                 </div>
                             </div>
                         </div>
@@ -174,15 +162,10 @@
                             id="card1">
                             <img src="{{ asset('assets/image/ph/rangga1.JPG') }}"
                                 class="card-img-top position-relative z-0" alt="...">
-                            <div class="card-body position-absolute z-1 py-2 container-fluid bottom-0 rounded-bottom-2 ">
+                            <div class="card-body position-absolute z-1 pb-4 container-fluid bottom-0 rounded-bottom-2 ">
                                 <div class="text-center">
                                     <h5 class="card-title text-center ">Rangga</h5>
                                     <h6 class="card-subtitle mb-2 text-muted text-center ">Ketua ASSETS</h6>
-                                    <div class="container d-flex justify-content-center g-3 ">
-                                        <img src="{{ asset('assets/image/Linkedin.svg') }}" alt="">
-                                        <img src="{{ asset('assets/image/Github.svg') }}" alt="">
-                                        <img src="{{ asset('assets/image/Instagram.svg') }}" alt="">
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -192,15 +175,11 @@
                             id="card1">
                             <img src="{{ asset('assets/image/ph/wisnu1.JPG') }}"
                                 class="card-img-top position-relative z-0" alt="...">
-                            <div class="card-body position-absolute z-1 py-2 container-fluid bottom-0 rounded-bottom-2 ">
+                            <div class="card-body position-absolute z-1 pb-4 container-fluid bottom-0 rounded-bottom-2 ">
                                 <div class="text-center">
                                     <h5 class="card-title text-center ">Wisnu</h5>
                                     <h6 class="card-subtitle mb-2 text-muted text-center ">Sekretaris Jendral</h6>
-                                    <div class="container d-flex justify-content-center g-1">
-                                        <img src="{{ asset('assets/image/Linkedin.svg') }}" alt="">
-                                        <img src="{{ asset('assets/image/Github.svg') }}" alt="">
-                                        <img src="{{ asset('assets/image/Instagram.svg') }}" alt="">
-                                    </div>
+
                                 </div>
                             </div>
                         </div>
@@ -210,51 +189,11 @@
                             id="card1">
                             <img src="{{ asset('assets/image/ph/rengganis1.JPG') }}"
                                 class="card-img-top position-relative z-0" alt="...">
-                            <div class="card-body position-absolute z-1 py-2 container-fluid bottom-0 rounded-bottom-2 ">
+                            <div class="card-body position-absolute z-1 pb-4 container-fluid bottom-0 rounded-bottom-2 ">
                                 <div class="text-center">
                                     <h5 class="card-title text-center ">Rengganis</h5>
                                     <h6 class="card-subtitle mb-2 text-muted text-center ">Bendahara 1</h6>
-                                    <div class="container d-flex justify-content-center g-1">
-                                        <img src="{{ asset('assets/image/Linkedin.svg') }}" alt="">
-                                        <img src="{{ asset('assets/image/Github.svg') }}" alt="">
-                                        <img src="{{ asset('assets/image/Instagram.svg') }}" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="card rounded-4 mb-2 bg-lavender teamCard overflow-hidden " style="width:360px;"
-                            id="card1">
-                            <img src="{{ asset('assets/image/minkat/alya1.JPG') }}"
-                                class="card-img-top position-relative z-0" alt="...">
-                            <div class="card-body position-absolute z-1 py-2 container-fluid bottom-0 rounded-bottom-2 ">
-                                <div class="text-center">
-                                    <h5 class="card-title text-center ">Alya</h5>
-                                    <h6 class="card-subtitle mb-2 text-muted text-center ">Anggota Divisi</h6>
-                                    <div class="container d-flex justify-content-center g-1">
-                                        <img src="{{ asset('assets/image/Linkedin.svg') }}" alt="">
-                                        <img src="{{ asset('assets/image/Github.svg') }}" alt="">
-                                        <img src="{{ asset('assets/image/Instagram.svg') }}" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="card rounded-4 mb-2 bg-lavender teamCard overflow-hidden " style="width:360px;"
-                            id="card1">
-                            <img src="{{ asset('assets/image/minkat/farhannugroho1.JPG') }}"
-                                class="card-img-top position-relative z-0" alt="...">
-                            <div class="card-body position-absolute z-1 py-2 container-fluid bottom-0 rounded-bottom-2 ">
-                                <div class="text-center">
-                                    <h5 class="card-title text-center ">Farhan Nugroho</h5>
-                                    <h6 class="card-subtitle mb-2 text-muted text-center ">Anggota Divisi</h6>
-                                    <div class="container d-flex justify-content-center g-1">
-                                        <img src="{{ asset('assets/image/Linkedin.svg') }}" alt="">
-                                        <img src="{{ asset('assets/image/Github.svg') }}" alt="">
-                                        <img src="{{ asset('assets/image/Instagram.svg') }}" alt="">
-                                    </div>
+
                                 </div>
                             </div>
                         </div>
