@@ -339,8 +339,6 @@
         $(document).ready(function() {
             $('.btn-galeri').on('click', function(e) {
                 e.preventDefault();
-                $('.btn-galeri').removeClass('active');
-                $(this).addClass('active');
 
                 var year = $(this).data('year');
                 window.location.href = '/galeri/' + year;
