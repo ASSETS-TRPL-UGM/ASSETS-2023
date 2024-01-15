@@ -139,7 +139,6 @@ section {
 
 #galeri .judul h1 {
     font-weight: bolder;
-    color: #004B4B;
 }
 
 .bi {
@@ -294,17 +293,18 @@ section {
 
 .btn-galeri {
     font-size: 18px;
-    font-weight: bold;
+    font-weight: bolder;
     color: #004B4B;
+    background-color: transparent;
     border-radius: 30px;
     border-width: 3px;
     border-color: #004B4B;
+    border-style: solid;
     padding: 5px 22px;
 }
 
-.btn-galeri:hover{
-    font-size: 18px;
-    font-weight: bold;
+.btn-galeri:hover, .btn-galeri.active {
+    font-weight: bolder;
     color: white;
     border-radius: 30px;
     border-width: 3px;
@@ -312,4 +312,34 @@ section {
     background: #004B4B;
     padding: 5px 22px;
     box-shadow: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .btn-galeri {
+      padding: 0px 2px;
+      border-width: 2px;
+      font-size: 10px !important;
+    }
+    .btn-galeri:hover, .btn-galeri.active {
+        padding: 0px 2px;
+        border-width: 2px;
+        font-size: 10px !important;
+      }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .btn-galeri {
+        padding: 0px 10px;
+        border-width: 2px;
+        font-size: 16px !important;
+    }
+    .btn-galeri:hover, .btn-galeri.active {
+        padding: 0px 10px;
+        border-width: 2px;
+        font-size: 16px !important;
+    }
+}
+
+#galeri.new-page {
+    margin-top: 50px;
 }

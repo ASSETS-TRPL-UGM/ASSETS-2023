@@ -17,7 +17,7 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-white ps-lg-5 fixed-top">
             <div class="container-fluid">
                 <a class="navbar-brand" href="/">
-                    <img src="{{ getAssetDir('assets/image/logo.jpg') }}" alt="" width="120" height="24"
+                    <img src="{{ asset('assets/image/logo.jpg') }}" alt="" width="120" height="24"
                         class="d-inline-block align-text-top">
                 </a>
             </div>
@@ -130,7 +130,7 @@
                     </div>
 
                     <div class="col-md-5">
-                        <img src="{{ getAssetDir('./assets/image/heroimg.png') }}"
+                        <img src="{{ asset('./assets/image/heroimg.png') }}"
                             class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto img-reveal"
                             alt="Image of about" width="auto" height="500" loading="lazy">
                     </div>
@@ -162,7 +162,7 @@
                         </a>
                     </div>
                     <div class="col-md-6">
-                        <img src="{{ getAssetDir('./assets/image/Team spirit.png') }}"
+                        <img src="{{ asset('./assets/image/Team spirit.png') }}"
                             class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto img-reveal spirit"
                             alt="Image of about" width="auto" height="500" loading="lazy">
                     </div>
@@ -220,17 +220,17 @@
                     <p class="lead fst-italic text-center mb-3">Foto-foto yang berhubungan dengan kegiatan ASSET</p>
 
                 <ul class="rem-masonry judul" style="max-width: 100%!important;">
-                    <li><img src="{{ getAssetDir('assets/image/bapakmu.jpg') }}" alt="masonry"></li>
-                    <li><img src="{{ getAssetDir('assets/image/work6.jpg') }}" alt="masonry"></li>
-                    <li><img src="{{ getAssetDir('assets/image/kulbet.jpg') }}" alt="masonry"></li>
-                    <li><img src="{{ getAssetDir('assets/image/work5.jpg') }}" alt="masonry"></li>
-                    <li><img src="{{ getAssetDir('assets/image/bapakmu.jpg') }}" alt="masonry"></li>
-                    <li><img src="{{ getAssetDir('assets/image/work4.jpg') }}" alt="masonry"></li>
-                    <li><img src="{{ getAssetDir('assets/image/kulbet.jpg') }}" alt="masonry"></li>
-                    <li><img src="{{ getAssetDir('assets/image/work6.jpg') }}" alt="masonry"></li>
-                    <li><img src="{{ getAssetDir('assets/image/work5.jpg') }}" alt="masonry"></li>
-                    <li><img src="{{ getAssetDir('assets/image/work4.jpg') }}" alt="masonry"></li>
-                    <li><img src="{{ getAssetDir('assets/image/work6.jpg') }}" alt="masonry"></li>
+                        <li><img src="{{ asset('gallery/2022/1.jpg') }}" alt="masonry" style="border-radius: 10px;"></li>
+                        <li><img src="{{ asset('gallery/2022/2.jpg') }}" alt="masonry" style="border-radius: 10px;"></li>
+                        <li><img src="{{ asset('gallery/2022/3.jpg') }}" alt="masonry" style="border-radius: 10px;"></li>
+                        <li><img src="{{ asset('gallery/2022/4.jpg') }}" alt="masonry" style="border-radius: 10px;"></li>
+                        <li><img src="{{ asset('gallery/2022/5.jpg') }}" alt="masonry" style="border-radius: 10px;"></li>
+                        <li><img src="{{ asset('gallery/2022/9.jpg') }}" alt="masonry" style="border-radius: 10px;"></li>
+                        <li><img src="{{ asset('gallery/2023/1.jpeg') }}" alt="masonry" style="border-radius: 10px;"></li>
+                        <li><img src="{{ asset('gallery/2023/4.png') }}" alt="masonry" style="border-radius: 10px;"></li>
+                        <li><img src="{{ asset('gallery/2023/9.jpeg') }}" alt="masonry" style="border-radius: 10px;"></li>
+                        <li><img src="{{ asset('gallery/2023/13.jpeg') }}" alt="masonry" style="border-radius: 10px;"></li>
+                        <li><img src="{{ asset('gallery/2023/15.jpg') }}" alt="masonry" style="border-radius: 10px;"></li>
                 </ul>
 
                 <div class="d-flex justify-content-center">
@@ -256,19 +256,19 @@
                     <div class="row text-center text-lg-start img-reveal">
                         <div class="col-lg-3 col-md-4 col-6 ">
                             <img class="img-fluid "
-                                src="{{ getAssetDir('assets/image/work4.jpg') }}" alt="">
+                                src="{{ asset('assets/image/work4.jpg') }}" alt="">
                         </div>
                         <div class="col-lg-3 col-md-4 col-6">
                             <img class="img-fluid "
-                                src="{{ getAssetDir('assets/image/work5.jpg') }}" alt="">
+                                src="{{ asset('assets/image/work5.jpg') }}" alt="">
                         </div>
                         <div class="col-lg-3 col-md-4 col-6">
                             <img class="img-fluid "
-                                src="{{ getAssetDir('assets/image/work6.jpg') }}" alt="">
+                                src="{{ asset('assets/image/work6.jpg') }}" alt="">
                         </div>
                         <div class="col-lg-3 col-md-4 col-6">
                             <img class="img-fluid "
-                                src="{{ getAssetDir('assets/image/work4.jpg') }}" alt="">
+                                src="{{ asset('assets/image/work4.jpg') }}" alt="">
                         </div>
                     </div>
                 </div>
@@ -401,7 +401,7 @@
 </script>
 
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-<script src="{{ getAssetDir('assets/js/masonry.js') }}"></script>
+<script src="{{ asset('assets/js/masonry.js') }}"></script>
 
 <script>
     $( document ).ready(function() {
@@ -416,7 +416,7 @@
 <!--===== SCROLL REVEAL =====-->
 <script src="https://unpkg.com/scrollreveal"></script>
 
-<script src="{{ getAssetDir('assets/js/main.js') }}"></script>
+<script src="{{ asset('assets/js/main.js') }}"></script>
 </body>
 @endsection
 

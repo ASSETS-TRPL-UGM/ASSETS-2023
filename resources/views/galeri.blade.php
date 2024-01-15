@@ -16,7 +16,7 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-white ps-lg-5 fixed-top">
             <div class="container-fluid">
                 <a class="navbar-brand" href="/">
-                    <img src="{{ getAssetDir('assets/image/logo.jpg') }}" alt="" width="120" height="24"
+                    <img src="{{ asset('assets/image/logo.jpg') }}" alt="" width="120" height="24"
                         class="d-inline-block align-text-top">
                 </a>
             </div>
@@ -96,37 +96,45 @@
     </div>
 
     <main>
-            <section id="galeri">
+            <section id="galeri" class="new-page">
                 <div class="row featurette mb-3 judul">
                     <h1 class="display-5 fw-bold lh-1 text-center">Galeri</h1>
                 </div>
                 
                 <div class="container mt-5 mb-5 d-flex justify-content-center align-items-center">
-                        <a href="#"><button class="btn mx-2 btn-galeri kotak">2019</button></a>
-                        <a href="#"><button class="btn mx-2 btn-galeri kotak">2020</button></a>
-                        <a href="#"><button class="btn mx-2 btn-galeri kotak">2021</button></a>
-                        <a href="#"><button class="btn mx-2 btn-galeri kotak">2022</button></a>
-                        <a href="#"><button class="btn mx-2 btn-galeri kotak">2023</button></a>
+                        <a href="#" class="mx-1"><button class="mx-2 btn-galeri kotak @if(request()->path() == 'galeri/2019') active @endif" data-year="2019">2019</button></a>
+                        <a href="#" class="mx-1"><button class="mx-2 btn-galeri kotak @if(request()->path() == 'galeri/2020') active @endif" data-year="2020">2020</button></a>
+                        <a href="#" class="mx-1"><button class="mx-2 btn-galeri kotak @if(request()->path() == 'galeri/2021') active @endif" data-year="2021">2021</button></a>
+                        <a href="#" class="mx-1"><button class="mx-2 btn-galeri kotak @if(request()->path() == 'galeri/2022') active @endif" data-year="2022">2022</button></a>
+                        <a href="#" class="mx-1"><button class="mx-2 btn-galeri kotak @if(request()->path() == 'galeri/2023') active @endif" data-year="2023">2023</button></a>
                 </div>
 
                 <ul class="rem-masonry judul" style="max-width: 100%!important;">
-                    <li><img src="{{ getAssetDir('assets/image/bapakmu.jpg') }}" alt="masonry"></li>
-                    <li><img src="{{ getAssetDir('assets/image/work6.jpg') }}" alt="masonry"></li>
-                    <li><img src="{{ getAssetDir('assets/image/kulbet.jpg') }}" alt="masonry"></li>
-                    <li><img src="{{ getAssetDir('assets/image/work5.jpg') }}" alt="masonry"></li>
-                    <li><img src="{{ getAssetDir('assets/image/bapakmu.jpg') }}" alt="masonry"></li>
-                    <li><img src="{{ getAssetDir('assets/image/work4.jpg') }}" alt="masonry"></li>
-                    <li><img src="{{ getAssetDir('assets/image/kulbet.jpg') }}" alt="masonry"></li>
-                    <li><img src="{{ getAssetDir('assets/image/work6.jpg') }}" alt="masonry"></li>
-                    <li><img src="{{ getAssetDir('assets/image/work5.jpg') }}" alt="masonry"></li>
-                    <li><img src="{{ getAssetDir('assets/image/work4.jpg') }}" alt="masonry"></li>
-                    <li><img src="{{ getAssetDir('assets/image/work6.jpg') }}" alt="masonry"></li>
+                    @if(isset($images) && count($images) > 0)
+                        @foreach ($images as $image)
+                            <li><img src="{{ asset('gallery/' . $image) }}" alt="masonry" style="border-radius: 10px;"></li>
+                        @endforeach
+                    @elseif(count($images) == 0)
+                        <p class="text-center">Oops! No photos found.</p>
+                    @else
+                        <li><img src="{{ asset('gallery/2022/1.jpg') }}" alt="masonry" style="border-radius: 10px;"></li>
+                        <li><img src="{{ asset('gallery/2022/2.jpg') }}" alt="masonry" style="border-radius: 10px;"></li>
+                        <li><img src="{{ asset('gallery/2022/3.jpg') }}" alt="masonry" style="border-radius: 10px;"></li>
+                        <li><img src="{{ asset('gallery/2022/4.jpg') }}" alt="masonry" style="border-radius: 10px;"></li>
+                        <li><img src="{{ asset('gallery/2022/5.jpg') }}" alt="masonry" style="border-radius: 10px;"></li>
+                        <li><img src="{{ asset('gallery/2022/9.jpg') }}" alt="masonry" style="border-radius: 10px;"></li>
+                        <li><img src="{{ asset('gallery/2023/1.jpeg') }}" alt="masonry" style="border-radius: 10px;"></li>
+                        <li><img src="{{ asset('gallery/2023/4.png') }}" alt="masonry" style="border-radius: 10px;"></li>
+                        <li><img src="{{ asset('gallery/2023/9.jpeg') }}" alt="masonry" style="border-radius: 10px;"></li>
+                        <li><img src="{{ asset('gallery/2023/13.jpeg') }}" alt="masonry" style="border-radius: 10px;"></li>
+                        <li><img src="{{ asset('gallery/2023/15.jpg') }}" alt="masonry" style="border-radius: 10px;"></li>
+                    @endif
                 </ul>
                 
                 <div class="d-flex justify-content-center">
                     <a href="galeri.html">
                         <button type="button" class="btn btn-galeri kotak btn-lg px-4 me-md-2 rounded-pill kotak">Load more
-                            <img src="../assets/image/next.png" width="24">
+                            <img src="../assets/image/next.png" width="24" class="img-fluid">
                         </button>
                     </a>
                 </div>
@@ -137,7 +145,7 @@
                 <div class="col d-flex align-items-start">
                     <div>
                         <a class="navbar-brand" href="#">
-                            <img src="{{ getAssetDir('assets/image/logo.png') }}" alt="" width="120" height="24"
+                            <img src="{{ asset('assets/image/logo.png') }}" alt="" width="120" height="24"
                                 class="d-inline-block align-text-top">
                         </a>
                         <p class="assets-footer">
@@ -161,7 +169,7 @@
                             </tr>
                             <tr>
                                 <td>
-                                    <img src="{{ getAssetDir('assets/image/email.png') }}" alt="" srcset="" width="25" height="25">
+                                    <img src="{{ asset('assets/image/email.png') }}" alt="" srcset="" width="25" height="25">
                                     </svg>
                                 </td>
                                 <td>
@@ -316,7 +324,7 @@
 </script>
 
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-<script src="{{ getAssetDir('assets/js/masonry.js') }}"></script>
+<script src="{{ asset('assets/js/masonry.js') }}"></script>
 
 <script>
     $( document ).ready(function() {
@@ -327,10 +335,20 @@
 
     });
 </script>
+<script>
+        $(document).ready(function() {
+            $('.btn-galeri').on('click', function(e) {
+                e.preventDefault();
+
+                var year = $(this).data('year');
+                window.location.href = '/galeri/' + year;
+            });
+        });
+</script>
 
 <!--===== SCROLL REVEAL =====-->
 <script src="https://unpkg.com/scrollreveal"></script>
 
-<script src="{{ getAssetDir('assets/js/main.js') }}"></script>
+<script src="{{ asset('assets/js/main.js') }}"></script>
 </body>
 @endsection
