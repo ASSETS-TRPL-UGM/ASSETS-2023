@@ -102,11 +102,11 @@
                 </div>
                 
                 <div class="container mt-5 mb-5 d-flex justify-content-center align-items-center">
-                        <a href="#" class="mx-1"><button class="mx-2 btn-galeri kotak" data-year="2019">2019</button></a>
-                        <a href="#" class="mx-1"><button class="mx-2 btn-galeri kotak" data-year="2020">2020</button></a>
-                        <a href="#" class="mx-1"><button class="mx-2 btn-galeri kotak" data-year="2021">2021</button></a>
-                        <a href="#" class="mx-1"><button class="mx-2 btn-galeri kotak" data-year="2022">2022</button></a>
-                        <a href="#" class="mx-1"><button class="mx-2 btn-galeri kotak" data-year="2023">2023</button></a>
+                        <a href="#" class="mx-1"><button class="mx-2 btn-galeri kotak @if(request()->path() == 'galeri/2019') active @endif" data-year="2019">2019</button></a>
+                        <a href="#" class="mx-1"><button class="mx-2 btn-galeri kotak @if(request()->path() == 'galeri/2020') active @endif" data-year="2020">2020</button></a>
+                        <a href="#" class="mx-1"><button class="mx-2 btn-galeri kotak @if(request()->path() == 'galeri/2021') active @endif" data-year="2021">2021</button></a>
+                        <a href="#" class="mx-1"><button class="mx-2 btn-galeri kotak @if(request()->path() == 'galeri/2022') active @endif" data-year="2022">2022</button></a>
+                        <a href="#" class="mx-1"><button class="mx-2 btn-galeri kotak @if(request()->path() == 'galeri/2023') active @endif" data-year="2023">2023</button></a>
                 </div>
 
                 <ul class="rem-masonry judul" style="max-width: 100%!important;">
@@ -114,18 +114,20 @@
                         @foreach ($images as $image)
                             <li><img src="{{ asset('gallery/' . $image) }}" alt="masonry" style="border-radius: 10px;"></li>
                         @endforeach
+                    @elseif(count($images) == 0)
+                        <p class="text-center">Oops! No photos found.</p>
                     @else
-                        <li><img src="{{ asset('assets/image/bapakmu.jpg') }}" alt="masonry"></li>
-                        <li><img src="{{ asset('assets/image/work6.jpg') }}" alt="masonry"></li>
-                        <li><img src="{{ asset('assets/image/kulbet.jpg') }}" alt="masonry"></li>
-                        <li><img src="{{ asset('assets/image/work5.jpg') }}" alt="masonry"></li>
-                        <li><img src="{{ asset('assets/image/bapakmu.jpg') }}" alt="masonry"></li>
-                        <li><img src="{{ asset('assets/image/work4.jpg') }}" alt="masonry"></li>
-                        <li><img src="{{ asset('assets/image/kulbet.jpg') }}" alt="masonry"></li>
-                        <li><img src="{{ asset('assets/image/work6.jpg') }}" alt="masonry"></li>
-                        <li><img src="{{ asset('assets/image/work5.jpg') }}" alt="masonry"></li>
-                        <li><img src="{{ asset('assets/image/work4.jpg') }}" alt="masonry"></li>
-                        <li><img src="{{ asset('assets/image/work6.jpg') }}" alt="masonry"></li>
+                        <li><img src="{{ asset('gallery/2022/1.jpg') }}" alt="masonry" style="border-radius: 10px;"></li>
+                        <li><img src="{{ asset('gallery/2022/2.jpg') }}" alt="masonry" style="border-radius: 10px;"></li>
+                        <li><img src="{{ asset('gallery/2022/3.jpg') }}" alt="masonry" style="border-radius: 10px;"></li>
+                        <li><img src="{{ asset('gallery/2022/4.jpg') }}" alt="masonry" style="border-radius: 10px;"></li>
+                        <li><img src="{{ asset('gallery/2022/5.jpg') }}" alt="masonry" style="border-radius: 10px;"></li>
+                        <li><img src="{{ asset('gallery/2022/9.jpg') }}" alt="masonry" style="border-radius: 10px;"></li>
+                        <li><img src="{{ asset('gallery/2023/1.jpeg') }}" alt="masonry" style="border-radius: 10px;"></li>
+                        <li><img src="{{ asset('gallery/2023/4.png') }}" alt="masonry" style="border-radius: 10px;"></li>
+                        <li><img src="{{ asset('gallery/2023/9.jpeg') }}" alt="masonry" style="border-radius: 10px;"></li>
+                        <li><img src="{{ asset('gallery/2023/13.jpeg') }}" alt="masonry" style="border-radius: 10px;"></li>
+                        <li><img src="{{ asset('gallery/2023/15.jpg') }}" alt="masonry" style="border-radius: 10px;"></li>
                     @endif
                 </ul>
                 
@@ -337,6 +339,9 @@
         $(document).ready(function() {
             $('.btn-galeri').on('click', function(e) {
                 e.preventDefault();
+                $('.btn-galeri').removeClass('active');
+                $(this).addClass('active');
+
                 var year = $(this).data('year');
                 window.location.href = '/galeri/' + year;
             });

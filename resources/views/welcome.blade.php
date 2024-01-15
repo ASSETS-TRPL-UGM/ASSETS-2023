@@ -220,17 +220,17 @@
                     <p class="lead fst-italic text-center mb-3">Foto-foto yang berhubungan dengan kegiatan ASSET</p>
 
                 <ul class="rem-masonry judul" style="max-width: 100%!important;">
-                    <li><img src="{{ asset('assets/image/bapakmu.jpg') }}" alt="masonry"></li>
-                    <li><img src="{{ asset('assets/image/work6.jpg') }}" alt="masonry"></li>
-                    <li><img src="{{ asset('assets/image/kulbet.jpg') }}" alt="masonry"></li>
-                    <li><img src="{{ asset('assets/image/work5.jpg') }}" alt="masonry"></li>
-                    <li><img src="{{ asset('assets/image/bapakmu.jpg') }}" alt="masonry"></li>
-                    <li><img src="{{ asset('assets/image/work4.jpg') }}" alt="masonry"></li>
-                    <li><img src="{{ asset('assets/image/kulbet.jpg') }}" alt="masonry"></li>
-                    <li><img src="{{ asset('assets/image/work6.jpg') }}" alt="masonry"></li>
-                    <li><img src="{{ asset('assets/image/work5.jpg') }}" alt="masonry"></li>
-                    <li><img src="{{ asset('assets/image/work4.jpg') }}" alt="masonry"></li>
-                    <li><img src="{{ asset('assets/image/work6.jpg') }}" alt="masonry"></li>
+                        <li><img src="{{ asset('gallery/2022/1.jpg') }}" alt="masonry" style="border-radius: 10px;"></li>
+                        <li><img src="{{ asset('gallery/2022/2.jpg') }}" alt="masonry" style="border-radius: 10px;"></li>
+                        <li><img src="{{ asset('gallery/2022/3.jpg') }}" alt="masonry" style="border-radius: 10px;"></li>
+                        <li><img src="{{ asset('gallery/2022/4.jpg') }}" alt="masonry" style="border-radius: 10px;"></li>
+                        <li><img src="{{ asset('gallery/2022/5.jpg') }}" alt="masonry" style="border-radius: 10px;"></li>
+                        <li><img src="{{ asset('gallery/2022/9.jpg') }}" alt="masonry" style="border-radius: 10px;"></li>
+                        <li><img src="{{ asset('gallery/2023/1.jpeg') }}" alt="masonry" style="border-radius: 10px;"></li>
+                        <li><img src="{{ asset('gallery/2023/4.png') }}" alt="masonry" style="border-radius: 10px;"></li>
+                        <li><img src="{{ asset('gallery/2023/9.jpeg') }}" alt="masonry" style="border-radius: 10px;"></li>
+                        <li><img src="{{ asset('gallery/2023/13.jpeg') }}" alt="masonry" style="border-radius: 10px;"></li>
+                        <li><img src="{{ asset('gallery/2023/15.jpg') }}" alt="masonry" style="border-radius: 10px;"></li>
                 </ul>
 
                 <div class="d-flex justify-content-center">
